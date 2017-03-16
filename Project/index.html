@@ -6,57 +6,6 @@
   <title>Official Fan Page</title>
   <link rel="stylesheet" href="styles/styles2.css">
 
-<!-- First, add jQuery (and jQuery UI if using custom easing or animation -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
-
-<!-- Second, add the Timer and Easing plugins -->
-<script type="text/javascript" src="GalleryView-master/js/jquery.timers-1.2.js"></script>
-<script type="text/javascript" src="GalleryView-master/js/jquery.easing.1.3.js"></script>
-
-<!-- Third, add the GalleryView Javascript and CSS files -->
-<script type="text/javascript" src="GalleryView-master/js/jquery.galleryview-3.0-dev.js"></script>
-<link type="text/css" rel="stylesheet" href="GalleryView-master/css/jquery.galleryview-3.0-dev.css" />
-
-<!-- Lastly, call the galleryView() function on your unordered list(s) -->
-<script type="text/javascript">
-	$(function(){
-		$('#myGallery').galleryView({
-		transition_speed: 2000, 		//INT - duration of panel/frame transition (in milliseconds)
-		transition_interval: 4000, 		//INT - delay between panel/frame transitions (in milliseconds)
-		easing: 'swing', 				//STRING - easing method to use for animations (jQuery provides 'swing' or 'linear', more available with jQuery UI or Easing plugin)
-		show_panels: true, 				//BOOLEAN - flag to show or hide panel portion of gallery
-		show_panel_nav: false, 			//BOOLEAN - flag to show or hide panel navigation buttons
-		enable_overlays: true, 			//BOOLEAN - flag to show or hide panel overlays
-		
-		panel_width: 900, 				//INT - width of gallery panel (in pixels)
-		panel_height: 500, 				//INT - height of gallery panel (in pixels)
-		panel_animation: 'slide', 		//STRING - animation method for panel transitions (crossfade,fade,slide,none)
-		panel_scale: 'crop', 			//STRING - cropping option for panel images (crop = scale image and fit to aspect ratio determined by panel_width and panel_height, fit = scale image and preserve original aspect ratio)
-		overlay_position: 'bottom', 	//STRING - position of panel overlay (bottom, top)
-		pan_images: true,				//BOOLEAN - flag to allow user to grab/drag oversized images within gallery
-		pan_style: 'drag',				//STRING - panning method (drag = user clicks and drags image to pan, track = image automatically pans based on mouse position
-		pan_smoothness: 15,				//INT - determines smoothness of tracking pan animation (higher number = smoother)
-		start_frame: 1, 				//INT - index of panel/frame to show first when gallery loads
-		show_filmstrip: true, 			//BOOLEAN - flag to show or hide filmstrip portion of gallery
-		show_filmstrip_nav: true, 		//BOOLEAN - flag indicating whether to display navigation buttons
-		enable_slideshow: false,			//BOOLEAN - flag indicating whether to display slideshow play/pause button
-		autoplay: false,				//BOOLEAN - flag to start slideshow on gallery load
-		show_captions: true, 			//BOOLEAN - flag to show or hide frame captions	
-		filmstrip_size: 3, 				//INT - number of frames to show in filmstrip-only gallery
-		filmstrip_style: 'scroll', 		//STRING - type of filmstrip to use (scroll = display one line of frames, scroll filmstrip if necessary, showall = display multiple rows of frames if necessary)
-		filmstrip_position: 'bottom', 	//STRING - position of filmstrip within gallery (bottom, top, left, right)
-		frame_width: 164, 				//INT - width of filmstrip frames (in pixels)
-		frame_height: 80, 				//INT - width of filmstrip frames (in pixels)
-		frame_opacity: 0.5, 			//FLOAT - transparency of non-active frames (1.0 = opaque, 0.0 = transparent)
-		frame_scale: 'crop', 			//STRING - cropping option for filmstrip images (same as above)
-		frame_gap: 5, 					//INT - spacing between frames within filmstrip (in pixels)
-		show_infobar: true,				//BOOLEAN - flag to show or hide infobar
-		infobar_opacity: 1				//FLOAT - transparency for info bar
-		});
-	});
-</script>
-
   <script>
     function show(shown, hidden) {
       document.getElementById(shown).style.display='block';
@@ -65,13 +14,63 @@
     }
   </script>
 
+  <!-- First, add jQuery (and jQuery UI if using custom easing or animation -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+
+  <!-- Second, add the Timer and Easing plugins -->
+  <script type="text/javascript" src="GalleryView-master/js/jquery.timers-1.2.js"></script>
+  <script type="text/javascript" src="GalleryView-master/js/jquery.easing.1.3.js"></script>
+
+  <!-- Third, add the GalleryView Javascript and CSS files -->
+  <script type="text/javascript" src="GalleryView-master/js/jquery.galleryview-3.0-dev.js"></script>
+  <link type="text/css" rel="stylesheet" href="GalleryView-master/css/jquery.galleryview-3.0-dev.css" />
+
+  <!-- Lastly, call the galleryView() function on your unordered list(s) -->
+  <script type="text/javascript">
+    $(function(){
+      $('#myGallery').galleryView({
+      transition_speed: 2000, 		//INT - duration of panel/frame transition (in milliseconds)
+      transition_interval: 4000, 		//INT - delay between panel/frame transitions (in milliseconds)
+      easing: 'swing', 				//STRING - easing method to use for animations (jQuery provides 'swing' or 'linear', more available with jQuery UI or Easing plugin)
+      show_panels: true, 				//BOOLEAN - flag to show or hide panel portion of gallery
+      show_panel_nav: false, 			//BOOLEAN - flag to show or hide panel navigation buttons
+      enable_overlays: true, 			//BOOLEAN - flag to show or hide panel overlays
+      
+      panel_width: 900, 				//INT - width of gallery panel (in pixels)
+      panel_height: 500, 				//INT - height of gallery panel (in pixels)
+      panel_animation: 'slide', 		//STRING - animation method for panel transitions (crossfade,fade,slide,none)
+      panel_scale: 'crop', 			//STRING - cropping option for panel images (crop = scale image and fit to aspect ratio determined by panel_width and panel_height, fit = scale image and preserve original aspect ratio)
+      overlay_position: 'bottom', 	//STRING - position of panel overlay (bottom, top)
+      pan_images: true,				//BOOLEAN - flag to allow user to grab/drag oversized images within gallery
+      pan_style: 'drag',				//STRING - panning method (drag = user clicks and drags image to pan, track = image automatically pans based on mouse position
+      pan_smoothness: 15,				//INT - determines smoothness of tracking pan animation (higher number = smoother)
+      start_frame: 1, 				//INT - index of panel/frame to show first when gallery loads
+      show_filmstrip: true, 			//BOOLEAN - flag to show or hide filmstrip portion of gallery
+      show_filmstrip_nav: true, 		//BOOLEAN - flag indicating whether to display navigation buttons
+      enable_slideshow: false,			//BOOLEAN - flag indicating whether to display slideshow play/pause button
+      autoplay: false,				//BOOLEAN - flag to start slideshow on gallery load
+      show_captions: true, 			//BOOLEAN - flag to show or hide frame captions	
+      filmstrip_size: 3, 				//INT - number of frames to show in filmstrip-only gallery
+      filmstrip_style: 'scroll', 		//STRING - type of filmstrip to use (scroll = display one line of frames, scroll filmstrip if necessary, showall = display multiple rows of frames if necessary)
+      filmstrip_position: 'bottom', 	//STRING - position of filmstrip within gallery (bottom, top, left, right)
+      frame_width: 164, 				//INT - width of filmstrip frames (in pixels)
+      frame_height: 80, 				//INT - width of filmstrip frames (in pixels)
+      frame_opacity: 0.5, 			//FLOAT - transparency of non-active frames (1.0 = opaque, 0.0 = transparent)
+      frame_scale: 'crop', 			//STRING - cropping option for filmstrip images (same as above)
+      frame_gap: 5, 					//INT - spacing between frames within filmstrip (in pixels)
+      show_infobar: true,				//BOOLEAN - flag to show or hide infobar
+      infobar_opacity: 1				//FLOAT - transparency for info bar
+      });
+    });
+  </script>
+
   <style>
        #map {
         height: 400px;
         width: 100%;
        }
-    </style>
-
+  </style>
 
 </head>
 
@@ -84,55 +83,120 @@
 
     <nav>
       <!-- browsers render the space between 'a' tags, so these are on one line -->
-      <a href="#" class="here">Home</a><a href="#">About</a><a href="#NewFeat">News and Features</a><a href="#">History</a><a href="#">Fixtures</a>
+      <a href="#" class="here">Home</a><a href="#lovelace">About</a><a href="#NewFeat">News and Features</a><a href="#turing">History</a><a href="#engelbart">Fixtures</a>
     </nav>
     
 
     <main><!-- main content goes inside this tag -->
 
-      <div id="Page1" style="text-align: center;">
-        <img>
-          <img src="images/enter.jpg" alt="Enter Website">
-        </img>
-        <p>
-        Enter Website>
-        <a href="#" onclick="return show('Page2','Page1');">Enter</a>
-        </p>
-      </div>
+        <div id="Page1" style="text-align: center;">
+            <img>
+                <img src="images/enter.jpg" alt="Enter Website">
+            </img>
+            <p>
+              Enter Website>
+              <a href="#" onclick="return show('Page2','Page1');">Enter</a>
+            </p>
+        </div>
 
-        
-
-      <div id="Page2" style="display:none">
+        <div id="Page2" style="display:none">
           <nav2>
-            <a href="#NewFeat">News and Features</a><a href="">Fixtures and Results</a><a href="">History</a><a href="">Gallery</a><a href="">Team</a>
+              <a href="#NewFeat">News and Features</a><a href="">Fixtures and Results</a><a href="">History</a><a href="">Gallery</a><a href="">Team</a>
           </nav2>
 
           <section id="NewFeat">
             <h2>News and Features</h2>
 
               <figure>
-                <img src="images/nf.jpg" width="500" height="352" alt="">
+                  <img src="images/nf.jpg" width="500" height="352" alt="">
               </figure>
               <p>
 
-                <section>
+              <section>
                   <img>
-                    <img src="images/pg.jpg" width="500" height="352" alt="">
+                      <img src="images/pg.jpg" width="500" height="352" alt="">
                   </img>
-                </section>
+              </section>
 
-                <h3>
+              <h3>
                   Pogba deserves more respect
-                </h3>
-                Jose Mourinho explains why he feels Paul Pogba is being unfairly treated by football pundits.
-                <a href="#" onclick="return show('News1','Page2');">Continue</a>
+              </h3>
+              Jose Mourinho explains why he feels Paul Pogba is being unfairly treated by football pundits.
+              <a href="#" onclick="return show('News1','Page2');">Continue</a>
               </p>
               
               <a href="#">TOP</a>
           </section>
 
-          <section id="About">
-            <h3>My Google Maps Demo</h3>
+          <section id="History">
+            <h2>History</h2>
+            <p>
+                Manchester United Football Club is a professional football club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of English football. Nicknamed "the Red Devils", the club was founded as Newton Heath LYR Football Club in 1878, changed its name to Manchester United in 1902 and moved to its current stadium, Old Trafford, in 1910.
+            </p>
+            <a href="#" onclick="return show('Hist','Page2');">Learn More</a>
+          </section>
+
+           <section id="Gallery">
+             <h2>Gallery</h2>
+              <ul id="myGallery">
+                  <li><img data-frame="images/enter.jpg" src="images/enter.jpg" title="Lone Tree Yellowstone" data-description="A solitary tree surviving another harsh winter in Yellowstone National Park. Yellowstone National Park, Wyoming. (Photo and caption by Anita Erdmann/Nature/National Geographic Photo Contest) " />
+                  <li><img data-frame="images/nf.jpg" src="images/nf.jpg" title="Is He Still There?!" data-description="One morning while on the Big Island of Hawaii, i exploring my surroundings to see if i could find something to photograph. I almost went back inside when something on this huge palm tree leaf caught my eye. I stayed around and it was this little gecko, startled by my presence he was hidden between the ridges of the leaf. He would pop his head up periodically to check his surroundings, as soon as he saw i was still there he would hide again. We played this game for a while until i got the shot. Holualoa big Island, Hawaii. (Photo and caption by Lorenzo Menendez/Nature/National Geographic Photo Contest)" />
+                  <li><img data-frame="images/pg.jpg" src="images/pg.jpg" title="Noni Nectar For Green Gecko" data-description="Madagascar Gold Dust Day Gecko licking nectar from a young noni fruit in Kailua, Hawaii. These geckos were living all around the hale' we were staying in, enjoying the noni and basking on the railing and sunny steps to our place. They were very shy mostly, except this one must have enjoyed the nectar so much as to let me get a shot of their favorite activity. They seemed to tend the noni very attentively throughout the day. August 2010, Chandra S Sherin. Kona Village Resort, Kailua - Kona, Hawaii. (Photo and Caption by Chandra Sherin/Nature/National Geographic Photo Contest)" />
+                
+              </ul>
+          </section>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- Extra content starts here!!!!! -->
+        <div id="News1" style="display:none">
+          <div style="text-align: center;">
+              <video width="600" height="500" controls>
+                  <source src="videos/pgnews.mp4" type="video/mp4">
+              </video>
+          </div>  
+              <section>
+                  <h4>
+                  Mourinho: Pogba deserves more respect
+                  </h4>
+              </section>
+              <p>
+                  Jose Mourinho believes Paul Pogba deserves more respect from football pundits as he continues to be an influential performer for Manchester United in his first season back at the club.
+
+                  The Frenchman's record price tag means his performances can be subject to media scrutiny but at Wednesday's pre-match press conference, Mourinho reiterated that everybody at the club is happy with the midfielder's contribution. The manager feels the player, who turns 24 today, is having to deal with undue criticism and suggests that envy may be a factor in the flak.
+
+                  "I feel that the world is losing values and we all know that and envy is coming into certain levels," said Mourinho, on the eve of United's second leg against FC Rostov.
+
+                  "I'm scared for especially the next generation if things go in this direction. Envy is everywhere.
+
+                  "It's not Paul's fault that he gets 10 times the money that some players, some very good players, got in the past. It's not his fault that some of the pundits are in real trouble with their lives and they need every pound to survive and Paul is a multi-millionaire. It's not his fault.
+
+                  "I think he deserves respect. I think his family deserve respect. He's a kid that comes from a working family, a family with three boys and I'm sure they needed a lot of food on that table every day because they are big giants. So I'm sure that the mum and the dad had to work hard for many, many years for them.
+
+                  "He is a kid that came to Manchester as a teenager, that fought for his career here, that was not afraid to move and to go to another country and to look for better conditions for him. A kid that reached the top of the world with his work, nobody gave him anything.
+
+                  "I'm very happy with Paul. The club is very happy with Paul and I think also a good thing is that because of his personality, he doesn't given an ass what people say."
+                  <a href="#" onclick="return show('Page2','News1');">Return</a>
+              </p>
+          </div>
+
+          <div id="Hist" style="display:none">
+            <p>
+              Manchester United have won a record 20 League Titles, a joint-record 12 FA Cups, 5 League Cups and a record 21 FA Community Shields. The club has also won three European Cups, one UEFA Cup Winners' Cup, one UEFA Super Cup, one Intercontinental Cup and one FIFA Club World Cup. In 1998–99, the club became the first in the history of English football to achieve the treble of the Premier League, the FA Cup and the UEFA Champions League.
+            </p>
+            <p>
+              The 1958 Munich air disaster claimed the lives of eight players. In 1968, under the management of Matt Busby, Manchester United became the first English football club to win the European Cup. Alex Ferguson won 38 trophies, including 13 Premier League titles, 5 FA Cups and 2 UEFA Champions Leagues, between 1986 and 2013, when he announced his retirement. José Mourinho is the club's current manager, having been appointed on 27 May 2016.
+            </p>
+            <p>
+              Manchester United was the highest-earning football club in the world for 2015–16, with an annual revenue of €689 million, and the world's third most valuable football club in 2015, valued at £1.98 billion.[8] As of June 2015, it is the world's most valuable football brand, estimated to be worth $1.2 billion. It is one of the most widely supported football teams in the world. After being floated on the London Stock Exchange in 1991, the club was purchased by Malcolm Glazer in May 2005 in a deal valuing the club at almost £800 million, after which the company was taken private again. In August 2012, Manchester United made an initial public offering on the New York Stock Exchange. The club holds several rivalries, most notably with Liverpool, Manchester City and Leeds United, and more recently with Arsenal.
+            </p>
             <div id="map"></div>
             <script>
               function initMap() {
@@ -150,48 +214,8 @@
             <script async defer
               src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6DDSPso0LksDhuV3a-mN00BjTXRHx9mU&callback=initMap">
             </script>
-          </section>
-
-          <section id="Gallery">
-            <ul id="myGallery">
-                  <li><img data-frame="images/enter.jpg" src="images/enter.jpg" title="Lone Tree Yellowstone" data-description="A solitary tree surviving another harsh winter in Yellowstone National Park. Yellowstone National Park, Wyoming. (Photo and caption by Anita Erdmann/Nature/National Geographic Photo Contest) " />
-                  <li><img data-frame="images/nf.jpg" src="images/nf.jpg" title="Is He Still There?!" data-description="One morning while on the Big Island of Hawaii, i exploring my surroundings to see if i could find something to photograph. I almost went back inside when something on this huge palm tree leaf caught my eye. I stayed around and it was this little gecko, startled by my presence he was hidden between the ridges of the leaf. He would pop his head up periodically to check his surroundings, as soon as he saw i was still there he would hide again. We played this game for a while until i got the shot. Holualoa big Island, Hawaii. (Photo and caption by Lorenzo Menendez/Nature/National Geographic Photo Contest)" />
-                  <li><img data-frame="images/pg.jpg" src="images/pg.jpg" title="Noni Nectar For Green Gecko" data-description="Madagascar Gold Dust Day Gecko licking nectar from a young noni fruit in Kailua, Hawaii. These geckos were living all around the hale' we were staying in, enjoying the noni and basking on the railing and sunny steps to our place. They were very shy mostly, except this one must have enjoyed the nectar so much as to let me get a shot of their favorite activity. They seemed to tend the noni very attentively throughout the day. August 2010, Chandra S Sherin. Kona Village Resort, Kailua - Kona, Hawaii. (Photo and Caption by Chandra Sherin/Nature/National Geographic Photo Contest)" />
-                
-              </ul>
-              </section>
-
-              <div id="News1" style="display:none">
-                <div style="text-align: center;">
-                  <video width="600" height="500" controls>
-                    <source src="videos/pgnews.mp4" type="video/mp4">
-                </video>
-              </div> 
-              
-                <section>
-                  <h4>
-                    Mourinho: Pogba deserves more respect
-                  </h4>
-                </section>
-                <p>
-                  Jose Mourinho believes Paul Pogba deserves more respect from football pundits as he continues to be an influential performer for Manchester United in his first season back at the club.
-
-                  The Frenchman's record price tag means his performances can be subject to media scrutiny but at Wednesday's pre-match press conference, Mourinho reiterated that everybody at the club is happy with the midfielder's contribution. The manager feels the player, who turns 24 today, is having to deal with undue criticism and suggests that envy may be a factor in the flak.
-
-                  "I feel that the world is losing values and we all know that and envy is coming into certain levels," said Mourinho, on the eve of United's second leg against FC Rostov.
-
-                  "I'm scared for especially the next generation if things go in this direction. Envy is everywhere.
-
-                  "It's not Paul's fault that he gets 10 times the money that some players, some very good players, got in the past. It's not his fault that some of the pundits are in real trouble with their lives and they need every pound to survive and Paul is a multi-millionaire. It's not his fault.
-
-                  "I think he deserves respect. I think his family deserve respect. He's a kid that comes from a working family, a family with three boys and I'm sure they needed a lot of food on that table every day because they are big giants. So I'm sure that the mum and the dad had to work hard for many, many years for them.
-
-                  "He is a kid that came to Manchester as a teenager, that fought for his career here, that was not afraid to move and to go to another country and to look for better conditions for him. A kid that reached the top of the world with his work, nobody gave him anything.
-
-                  "I'm very happy with Paul. The club is very happy with Paul and I think also a good thing is that because of his personality, he doesn't given an ass what people say."
-                  <a href="#" onclick="return show('Page2','News1');">Return</a>
-                </p>
-              </div>
           </div>
+        </main>
+    </div>
 </body>
 </html>
