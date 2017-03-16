@@ -1,0 +1,192 @@
+/*CACHED*//******************************************************************************************************
+ *            DYNAMIC STYLE FOR style-f58489dd-vygvxkap
+ *                                 	 
+ ******************************************************************************************************/
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap.master.item-box   {
+		
+						background-color: rgba(0, 0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .preview-title  ,  .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .preview-body h1  { 
+						font-family: Oswald;
+						font-size: 66px;
+						text-transform: uppercase;
+						color: rgb(255, 255, 255);
+						letter-spacing: -0.05em;
+						margin-top: 10px;
+						margin-bottom: 5px;
+						line-height: 1.1em;
+						background-color: rgba(255, 255, 255, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .inner-pic-holder  {
+		
+						background-color: rgb(0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap  .preview-content-holder  {
+		
+						margin-right: 0px;
+						padding-bottom: 0px;
+						text-align: left;
+						max-width: 750px;
+						padding-right: 0px;
+						margin-top: 45px;
+						margin-left: 0px;
+						padding-top: 0px;
+						margin-bottom: 45px;
+						background-color: rgba(0, 0, 0, 0);
+						border-color: rgb(197, 197, 197);
+						padding-left: 0px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .preview-item-links span  ,  .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap #sr-basket-widget *  { 
+						border-width: 1px;
+						font-size: 10px;
+						text-transform: uppercase;
+						color: rgb(236, 236, 236);
+						padding-bottom: 10px;
+						border-color: rgb(255, 255, 255);
+						letter-spacing: 0.15em;
+						padding-right: 20px;
+						margin-top: 30px;
+						padding-left: 20px;
+						padding-top: 10px;
+						font-family: Arial;
+						background-color: rgb(104, 89, 74);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .preview-icon-holder  {
+		
+						margin-bottom: 40px;	
+		}
+	
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .item-content:not(.blocks_layout)  {
+		
+						background-color: rgb(237, 234, 229);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .preview-divider  {
+		
+						margin-bottom: 0px;
+						border-color: rgb(255, 255, 255);
+						margin-top: 0px;
+						border-bottom-width: 7px;
+						width: 100%;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .preview-item-links span:before  ,  .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .effect-tester  { 
+						background-color: rgb(0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .preview-body-holder  {
+		
+						max-width: 500px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .inner-pic  {
+		
+						opacity: 1;
+		    			-webkit-filter: brightness(0.8);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .preview-item-links span:hover  ,  .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .preview-element.Link.hover-tester  { 
+						color: rgb(197, 197, 197);
+						background-color: rgb(0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .multi_layout .helper-div.middle-center .pic-side  {
+		
+						margin-left: -6%;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .preview-body  {
+		
+						font-family: Montserrat;
+						font-size: 12px;
+						color: rgb(255, 255, 255);
+						letter-spacing: 0.05em;
+						max-width: 600px;
+						margin-top: 10px;
+						margin-bottom: 10px;
+						line-height: 1.6em;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .preview-element.icon-source  {
+		
+						width: 190px;
+						margin-top: 5px;
+						margin-bottom: 5px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap  .preview-content-wrapper  {
+		
+						text-align: left;
+						vertical-align: middle;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .middle_layout .helper-div  ,  .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .multi_layout .helper-div.middle-center .text-side  { 
+						max-width: 1000px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .multi_layout .helper-div.middle-center  {
+		
+						padding-left: 6%;
+						width: 88%;
+						padding-right: 6%;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .preview-subtitle  ,  .style-f58489dd-72dsufyo .style-f58489dd-vygvxkap .preview-body h2  { 
+						line-height: 1.0em;
+						font-size: 24px;
+						color: rgb(255, 255, 255);
+						letter-spacing: 0.0em;
+						margin-right: 0px;
+						margin-top: 5px;
+						margin-left: 0px;
+						margin-bottom: 5px;
+						font-family: Montserrat;	
+		}
+
+/******************************************************************************************************
+ *            UNIQUE STYLE
+ *                                 	 
+ ******************************************************************************************************/
+
+
+
+ .style-f58489dd-vygvxkap #vbid-f58489dd-mbydgy0r .preview-content-holder{
+				
+							text-align : center;
+					
+				} .style-f58489dd-vygvxkap #vbid-f58489dd-1houlu0y .preview-content-holder{
+				
+							text-align : left;
+					
+				}
+
+
+
+
+
+
+
+ .style-f58489dd-vygvxkap #vbid-f58489dd-b0zaimsg.inner-pic{
+				
+							background-position : 28.1933% 23.125%;
+					
+				} .style-f58489dd-vygvxkap #vbid-f58489dd-fphowdgk.inner-pic{
+				
+							background-position : 51.4629% 12%;
+					
+				} .style-f58489dd-vygvxkap #vbid-f58489dd-fjoxni5g.inner-pic{
+				
+							background-position : 58.464% 100%;
+					
+				}
+
+
+
+
+ .style-f58489dd-vygvxkap #vbid-f58489dd-mbydgy0r .preview-content-wrapper{
+				
+							text-align : center;
+					
+				} .style-f58489dd-vygvxkap #vbid-f58489dd-1houlu0y .preview-content-wrapper{
+				
+							text-align : left;
+					
+				}
+
+
+
+
+
+
+/******************************************************************************************************
+ *            WEBSITE STYLE
+ *                                 	 
+ ******************************************************************************************************/

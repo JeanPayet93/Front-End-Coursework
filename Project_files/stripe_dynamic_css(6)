@@ -1,0 +1,281 @@
+/*GENERATED CACHE BUT SERVED DYNAMICALLY*//******************************************************************************************************
+ *            DYNAMIC STYLE FOR style-f58489dd-iwbeam7g
+ *                                 	 
+ ******************************************************************************************************/
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview.image-cover  {
+		
+						background-color: rgba(0, 0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .blocks-preview-divider  {
+		
+						border-bottom-width: 7px;
+						width: 100%;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g  .preview-content-holder  {
+		
+						margin-right: 0px;
+						text-align: left;
+						max-width: 600px;
+						padding-right: 0px;
+						margin-top: 10px;
+						margin-left: 0px;
+						margin-bottom: 10px;
+						background-color: rgba(0, 0, 0, 0);
+						padding-left: 0px;	
+		}
+	
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .blocks-preview-subtitle-holder  {
+		
+						max-width: 800px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .item-content:not(.blocks_layout)  {
+		
+						background-color: rgba(0, 0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview-divider  {
+		
+						width: 100%;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .inner-pic  {
+		
+		    			-webkit-filter:none;filter:none;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g #pagination-holder  {
+		
+						border-width: 1px;
+						font-size: 18px;
+						color: rgb(131, 131, 131);
+						padding-bottom: 10px;
+						border-color: rgb(131, 131, 131);
+						padding-right: 20px;
+						margin-top: 30px;
+						padding-left: 20px;
+						padding-top: 10px;
+						margin-bottom: 30px;
+						font-family: Times New Roman;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .multi_layout .helper-div.middle-center .pic-side  {
+		
+						margin-left: -6%;	
+		}
+	
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .blocks-preview-item-links .Link:hover  {
+		
+						background-color: rgb(0, 0, 0);
+						color: rgb(255, 255, 255);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .multi_layout .helper-div.middle-center  {
+		
+						padding-left: 6%;
+						width: 88%;
+						padding-right: 6%;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .background-div  {
+			
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g.master.item-box   {
+		
+						background-color: rgb(232, 232, 230);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview-title  ,  .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview-body h1  { 
+						line-height: 1.4em;
+						font-size: 13px;
+						color: rgb(0, 0, 0);
+						letter-spacing: -0.05em;
+						margin-bottom: 0px;
+						font-family: Montserrat;
+						background-color: rgba(0, 0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g.master.item-box   {
+		
+						padding-left: 6%;
+						padding-right: 6%;
+						width: 88%;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview-item-links span  ,  .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g #sr-basket-widget *  { 
+						border-width: 1px;
+						font-size: 12px;
+						color: rgb(255, 255, 255);
+						padding-bottom: 10px;
+						border-color: rgb(0, 0, 0);
+						letter-spacing: 0.1em;
+						padding-right: 15px;
+						margin-top: 10px;
+						padding-left: 15px;
+						border-radius: 15px;
+						padding-top: 10px;
+						margin-bottom: 15px;
+						font-family: Raleway;
+						background-color: rgb(0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .blocks-preview-body  {
+		
+						margin-top: 10px;
+						font-family: Arial;
+						font-size: 12px;
+						margin-bottom: 10px;
+						line-height: 1.5em;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .stripe-background  {
+		
+						opacity: 0.18;
+		    			-webkit-filter: grayscale(100%) brightness(0.8);
+						margin-top: -25px;
+						margin-left: -6%;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview-element.icon-source  {
+		
+						margin-left: 20px;
+						width: 40px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .blocks-preview-content-holder  {
+		
+						margin-right: 0px;
+						padding-bottom: 0px;
+						text-align: left;
+						padding-right: 0px;
+						margin-top: 10px;
+						margin-left: 0px;
+						padding-top: 0px;
+						margin-bottom: 15px;
+						padding-left: 0px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .background-image-div  {
+		
+						color: rgb(0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .blocks-preview-subtitle  {
+		
+						line-height: 1.4em;
+						font-size: 14px;
+						color: rgb(0, 0, 0);
+						margin-top: 10px;
+						margin-bottom: 10px;
+						font-family: Raleway;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview-icon-holder  {
+		
+						text-align: left;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g  .preview-content-wrapper  {
+		
+						vertical-align: bottom;
+						text-align: left;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview-price  {
+		
+						color: rgb(248, 248, 248);
+						font-family: Arial;	
+		}
+	
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .blocks-preview-body-holder  {
+		
+						max-width: 800px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview-item-links span:hover  ,  .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview-element.Link.hover-tester  { 
+						color: rgb(255, 255, 255);
+						background-color: rgb(0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview-item-links span:before  ,  .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .effect-tester  { 
+						background-color: rgb(0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .blocks-preview-content-wrapper  {
+		
+						text-align: left;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .blocks-preview-title  {
+		
+						font-size: 22px;
+						text-transform: uppercase;
+						letter-spacing: -0.05em;
+						margin-top: 10px;
+						margin-bottom: 10px;
+						font-family: Montserrat;	
+		}
+	
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .blocks-preview-icon-holder .icon-source  {
+		
+						width: 50px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview-body  {
+		
+						line-height: 1.4em;
+						font-size: 12px;
+						color: rgb(48, 48, 48);
+						max-width: 400px;
+						margin-top: 5px;
+						margin-bottom: 10px;
+						font-family: Arial;	
+		}
+	
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .blocks-preview-item-links .Link  {
+		
+						font-size: 15px;
+						padding-bottom: 5px;
+						padding-right: 20px;
+						margin-top: 10px;
+						padding-left: 20px;
+						border-radius: 17px;
+						padding-top: 5px;
+						margin-bottom: 10px;
+						border-width: 2px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview-subtitle  ,  .style-f58489dd-72dsufyo .style-f58489dd-iwbeam7g .preview-body h2  { 
+						line-height: 1.2em;
+						font-size: 12px;
+						color: rgb(0, 0, 0);
+						letter-spacing: -0.0em;
+						margin-right: 0px;
+						margin-top: 5px;
+						margin-left: 0px;
+						margin-bottom: 5px;
+						font-family: Arial;
+						background-color: rgba(255, 255, 255, 0);	
+		}
+
+/******************************************************************************************************
+ *            UNIQUE STYLE
+ *                                 	 
+ ******************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************************************************
+ *            WEBSITE STYLE
+ *                                 	 
+ ******************************************************************************************************/

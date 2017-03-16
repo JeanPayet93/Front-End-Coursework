@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  background-color: #eee; /* note CSS spelling of 'color' */
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+#container {
+  /*
+    these rules make the whole page narrower and centre it on screen: 
+    if you uncmment them and reload the browser, comment them out again
+  */
+  /*width: 900px;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+}
+header {
+  background-color: #565;
+  color: #fff;
+}
+header h1 {
+  font-size: 2em;
+  letter-spacing: 6px;
+  margin: 0;
+  line-height: 3em;
+  text-align: center; /* note CSS spelling of ‘center’ */
+}
+
+nav {
+  /* you can use percentages for widths */
+  width: 25%;
+  font-size: 1em;
+  line-height: 2.5em;
+  text-align: center;
+  background-color: #9a9;
+  float: right;
+  position: relative;
+  /*border-bottom: 2px solid #565;*/
+}
+nav a:link,
+nav a:visited {
+  /*
+    20% with 5 items will fill the width - use box-sizing
+    (see bottom of this file) if necessary
+  */
+  width: 100%;
+  display: block;
+  background-color: #9a9;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 4px solid #565;
+  transition: all 0.5s;
+  border-top-left-radius: 20%;
+}
+nav a:hover,
+nav a.here  {
+  background-color: #676;
+  color: #fff;
+  /*border-bottom: 4px solid #9aa;*/
+}
+/*nav a.here {
+  background-color: #565;
+}*/
+
+main {
+  /* you can use percentages for widths */
+  /*width: 490px;*/
+  /* clear: both; */
+  padding: 1em 1em; /* top, right-left, bottom */
+  background-color: #fff;
+  font-size: 1.25em;
+  line-height: 1.85em;
+  overflow: auto;
+  text-align: center;
+}
+
+section {
+	width: 44%;
+  clear: both;
+  margin-top: 1.5em;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  overflow: auto;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+
+/*section{*/
+	/* 'relative' sets the CONTEXT for the 'TOP' link absolute position */
+	/*position: relative;
+	width: 45%; /*45% of the available space in the PARENT element (main)*/
+	/*display: inline-block;
+	margin: 1.5em 2% 0; /* top, right-left, bottom */
+	/*padding: 17px;
+	background: #fff;
+	overflow: auto;
+	box-sizing: border-box;
+	min-height: 33em;
+	border-radius: 10px;
+}*/
+
+section h2 {
+  font-size: 1.25em;
+  margin: 0;
+  border-top: 2px solid #676;
+  color: #464;
+}
+section:first-child h2 {
+  border-top: top;
+}
+/* SEE http://www.w3schools.com/cssref/sel_firstchild.asp */
+
+section p {
+  margin: 1em 0 0; /* top, right and left, bottom */
+}
+section a[href="#"] {
+  display: block;
+  color: #999;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* background-color: green; */
+}
+
+section a:hover[href="#"] {
+	color: green;
+}
+/* SEE http://www.w3schools.com/css/css_attribute_selectors.asp */
+
+figure {
+  width: 40%;
+  float: left;
+  border: 1px solid #333;
+  background: #565;
+  color: #fff;
+  padding: 0;
+  margin: 1em 2% 0.25em 0; /* top, right, bottom, left */
+  border-radius: 8px;
+  overflow: hidden;
+}
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+figure figcaption {
+  text-align: center;
+  padding: 2px 6px;
+}
+
+footer {
+  clear: both;
+  border-top: 2px solid #676;
+  padding: 0.5em 30px; /* top-bottom, right-left */
+  background-color: #9a9;
+  text-align: right;
+}
+/*#container,
+header,
+main,
+nav,
+section,
+figure,
+footer {
+  box-sizing: border-box;
+}*/

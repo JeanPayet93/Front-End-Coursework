@@ -1,0 +1,193 @@
+/*CACHED*//******************************************************************************************************
+ *            DYNAMIC STYLE FOR style-f58489dd-a32jyuxh
+ *                                 	 
+ ******************************************************************************************************/
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh  .preview-content-holder  {
+		
+						margin-right: 0px;
+						padding-bottom: 0px;
+						text-align: left;
+						max-width: 400px;
+						padding-right: 0px;
+						margin-top: 50px;
+						margin-left: 0px;
+						padding-top: 0px;
+						margin-bottom: 50px;
+						background-color: rgba(0, 0, 0, 0);
+						border-color: rgb(197, 197, 197);
+						padding-left: 0px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .item-content:not(.blocks_layout)  {
+		
+						background-color: rgba(0, 0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-divider  {
+		
+						margin-bottom: 10px;
+						border-color: rgb(0, 0, 0);
+						margin-top: 5px;
+						width: 100%;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .inner-pic  {
+		
+						opacity: 0.17;
+						color: rgb(255, 255, 255);
+		    			-webkit-filter: grayscale(100%);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .multi_layout .helper-div.middle-center .pic-side  {
+		
+						margin-left: -6%;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .multi_layout .helper-div.middle-center  {
+		
+						padding-left: 6%;
+						width: 88%;
+						padding-right: 6%;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh.master.item-box   {
+		
+						background-color: rgb(0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-title  ,  .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-body h1  { 
+						font-family: Montserrat;
+						font-size: 24px;
+						color: rgb(222, 225, 227);
+						letter-spacing: 0.0em;
+						margin-top: 5px;
+						margin-bottom: 5px;
+						line-height: 1.2em;
+						background-color: rgba(255, 255, 255, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-item-links span  ,  .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh #sr-basket-widget *  { 
+						border-width: 0px;
+						font-size: 14px;
+						color: rgb(149, 149, 149);
+						padding-bottom: 15px;
+						border-color: rgba(0, 0, 0, 0);
+						letter-spacing: 0.1em;
+						text-decoration: underline;
+						padding-right: 20px;
+						margin-top: 10px;
+						padding-left: 20px;
+						padding-top: 15px;
+						font-family: Arial;
+						background-color: rgba(0, 0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-element.icon-source  {
+		
+						color: rgb(255, 255, 255);
+						margin-top: 0px;
+						margin-bottom: 10px;
+						width: 160px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .background-image-div  {
+		
+						color: rgb(255, 255, 255);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-link-img  {
+		
+						width: 24px;
+						margin: 12px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-icon-holder  {
+		
+						margin-bottom: 40px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-body-holder  {
+		
+						max-width: 500px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh  .preview-content-wrapper  {
+		
+						text-align: left;
+						vertical-align: middle;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-item-links span:hover  ,  .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-element.Link.hover-tester  { 
+						color: rgb(66, 224, 148);
+						background-color: rgba(0, 0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .inner-pic-holder  {
+		
+						background-color: rgb(0, 0, 0);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-item-links span:before  ,  .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .effect-tester  { 
+						background-color: rgb(255, 255, 255);	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-body  {
+		
+						font-family: Arial;
+						font-size: 14px;
+						color: rgb(89, 89, 89);
+						letter-spacing: 0.2em;
+						max-width: 600px;
+						margin-top: 10px;
+						margin-bottom: 10px;
+						line-height: 1.6em;	
+		}
+	
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-social-holder  {
+		
+						margin-bottom: 10px;
+						margin-top: 10px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .middle_layout .helper-div  ,  .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .multi_layout .helper-div.middle-center .text-side  { 
+						max-width: 1000px;	
+		}
+	 .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-subtitle  ,  .style-f58489dd-72dsufyo .style-f58489dd-a32jyuxh .preview-body h2  { 
+						line-height: 1.5em;
+						font-size: 18px;
+						color: rgb(174, 174, 174);
+						letter-spacing: 0.05em;
+						margin-right: 0px;
+						margin-top: 5px;
+						margin-left: 0px;
+						margin-bottom: 10px;
+						font-family: "Playfair Display";	
+		}
+
+/******************************************************************************************************
+ *            UNIQUE STYLE
+ *                                 	 
+ ******************************************************************************************************/
+ .style-f58489dd-a32jyuxh #vbid-f58489dd-h36c1wrv .preview-content-holder{
+				
+							text-align : center;
+					
+				}
+
+
+ .style-f58489dd-a32jyuxh #vbid-f58489dd-oytbzdus.inner-pic{
+				
+							background-position : 44.6708% 48.2667%;
+					
+				}
+
+
+
+
+
+
+
+
+
+
+ .style-f58489dd-a32jyuxh #vbid-f58489dd-h36c1wrv .preview-content-wrapper{
+				
+							text-align : center;
+					
+				}
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************************************************
+ *            WEBSITE STYLE
+ *                                 	 
+ ******************************************************************************************************/

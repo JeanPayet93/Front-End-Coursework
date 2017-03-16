@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Official Fan Page</title>
+  <link rel="stylesheet" href="styles/styles2.css">
+
+  <script>
+    function show(shown, hidden) {
+      document.getElementById(shown).style.display='block';
+      document.getElementById(hidden).style.display='none';
+      return false;
+    }
+  </script>
+
+</head>
+
+<body>
+  <div id="container">
+
+    <header>
+      <h1>Manchester United Official Fan Page</h1>
+    </header>
+
+    <nav>
+      <!-- browsers render the space between 'a' tags, so these are on one line -->
+      <a href="#" class="here">Home</a><a href="#lovelace">About</a><a href="#NewFeat">News and Features</a><a href="#turing">History</a><a href="#engelbart">Fixtures</a>
+    </nav>
+    
+
+    <main><!-- main content goes inside this tag -->
+
+      <div id="Page1" style="text-align: center;">
+        <img>
+          <img src="images/enter.jpg" alt="Enter Website">
+        </img>
+        Enter Website>
+        <a href="#" onclick="return show('Page2','Page1');">Enter</a>
+      </div>
+
+  <div id="Page2" style="display:none">
+    <nav2>
+      <a href="#NewFeat">News and Features</a><a href="">Fixtures and Results</a><a href="">History</a><a href="">Gallery</a><a href="">Team</a>
+    </nav2>
+
+    <section id="NewFeat">
+      <h2>News and Features</h2>
+
+        <figure>
+          <img src="images/nf.jpg" width="500" height="352" alt="">
+        </figure>
+        <p>
+
+          <section>
+            <img>
+              <img src="images/pg.jpg" width="500" height="352" alt="">
+            </img>
+          </section>
+
+          <h3>
+            Pogba deserves more respect
+          </h3>
+          Jose Mourinho explains why he feels Paul Pogba is being unfairly treated by football pundits.
+          <a href="#" onclick="return show('News1','Page2');">Continue</a>
+        </p>
+        
+        <a href="#">TOP</a>
+    </section>
+  </div>
+  <div id="News1" style="display:none">
+     <video width="600" height="500" controls>
+        <source src="videos/pgnews.mp4" type="video/mp4">
+      </video> 
+          <section>
+            <h4>
+              Mourinho: Pogba deserves more respect
+            </h4>
+          </section>
+          <p>
+            Jose Mourinho believes Paul Pogba deserves more respect from football pundits as he continues to be an influential performer for Manchester United in his first season back at the club.
+
+            The Frenchman's record price tag means his performances can be subject to media scrutiny but at Wednesday's pre-match press conference, Mourinho reiterated that everybody at the club is happy with the midfielder's contribution. The manager feels the player, who turns 24 today, is having to deal with undue criticism and suggests that envy may be a factor in the flak.
+
+            "I feel that the world is losing values and we all know that and envy is coming into certain levels," said Mourinho, on the eve of United's second leg against FC Rostov.
+
+            "I'm scared for especially the next generation if things go in this direction. Envy is everywhere.
+
+            "It's not Paul's fault that he gets 10 times the money that some players, some very good players, got in the past. It's not his fault that some of the pundits are in real trouble with their lives and they need every pound to survive and Paul is a multi-millionaire. It's not his fault.
+
+            "I think he deserves respect. I think his family deserve respect. He's a kid that comes from a working family, a family with three boys and I'm sure they needed a lot of food on that table every day because they are big giants. So I'm sure that the mum and the dad had to work hard for many, many years for them.
+
+            "He is a kid that came to Manchester as a teenager, that fought for his career here, that was not afraid to move and to go to another country and to look for better conditions for him. A kid that reached the top of the world with his work, nobody gave him anything.
+
+            "I'm very happy with Paul. The club is very happy with Paul and I think also a good thing is that because of his personality, he doesn't given an ass what people say."
+            <a href="#" onclick="return show('Page2','News1');">Return</a>
+          </p>
+        </div>
+</body>
+</html>

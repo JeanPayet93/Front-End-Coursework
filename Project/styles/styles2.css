@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  background-color: #eee; /* note CSS spelling of 'color' */
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+#container {
+  /*
+    these rules make the whole page narrower and centre it on screen: 
+    if you uncmment them and reload the browser, comment them out again
+  */
+  /*width: 900px;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+}
+header {
+  background-color: darkred;
+  color: #fff;
+}
+header h1 {
+  font-size: 1.5em;
+  letter-spacing: 6px;
+  margin: 0;
+  line-height: 3em;
+  text-align: center; /* note CSS spelling of ‘center’ */
+}
+
+h3 {
+  font: bold;
+}
+
+h4 {
+  font: bold;
+  color: red;
+}
+
+img {
+  height: 50%;
+}
+
+nav {
+  /* you can use percentages for widths */
+  /*width: 150px;*/
+  font-size: 1em;
+  line-height: 2.5em;
+  text-align: center;
+  background-color: red;
+  /*border-bottom: 2px solid #565;*/
+}
+
+nav2 {
+  /* you can use percentages for widths */
+  width: 25%;
+  font-size: 1em;
+  line-height: 2.5em;
+  text-align: center;
+  background-color: red;
+  float: left;
+  position: relative;
+  /*border-bottom: 2px solid #565;*/
+}
+
+nav2 a:link,
+nav2 a:visited {
+  /*
+    20% with 5 items will fill the width - use box-sizing
+    (see bottom of this file) if necessary
+  */
+  width: 100%;
+  display: block;
+  background-color: red;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 4px solid darkred;
+  transition: all 0.5s;
+  border-top-right-radius: 20%;
+}
+
+nav2 a:hover,
+nav2 a.here  {
+  background-color: darkred;
+  color: #fff;
+  /*border-bottom: 4px solid #9aa;*/
+}
+/*nav a.here {
+  background-color: #565;
+}*/
+
+nav a:link,
+nav a:visited {
+  /*
+    20% with 5 items will fill the width - use box-sizing
+    (see bottom of this file) if necessary
+  */
+  width: 16%;
+  display: inline-block;
+  background-color: red;
+  text-decoration: none;
+  color: #000;
+  /*border-bottom: 4px solid #565;*/
+  transition: all 0.5s;
+}
+nav a:hover,
+nav a.here  {
+  background-color: darkred;
+  color: #fff;
+  /*border-bottom: 4px solid #9aa;*/
+}
+nav a.here {
+  background-color: darkred;
+}
+
+main {
+  /* you can use percentages for widths */
+  /*width: 490px;*/
+  clear: both;
+  padding: 1em 30px 2em; /* top, right-left, bottom */
+  background-color: #fff;
+  /*background: url("file://C:/Users/ZBookStudio/Desktop/Front End Coursework/Project/images/back.jpg") repeat;*/
+  font-size: 1.25em;
+  line-height: 1.85em;
+  overflow: auto;
+}
+
+section {
+  clear: both;
+  margin-top: 1.5em;
+  overflow: auto;
+}
+section h2 {
+  font-size: 1.25em;
+  margin: 0;
+  border-top: 2px solid #676;
+  color: red;
+}
+section:first-child h2 {
+  border-top: none;
+}
+/* SEE http://www.w3schools.com/cssref/sel_firstchild.asp */
+
+section p {
+  margin: 1em 0 0; /* top, right and left, bottom */
+}
+section a[href="#"] {
+  display: block;
+  color: #999;
+  text-align: right;
+}
+/* SEE http://www.w3schools.com/css/css_attribute_selectors.asp */
+
+figure {
+  width: 40%;
+  float: left;
+  border: 1px solid #333;
+  background: #565;
+  color: #fff;
+  padding: 0;
+  margin: 1em 2% 0.25em 0; /* top, right, bottom, left */
+  border-radius: 8px;
+  overflow: hidden;
+}
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+figure figcaption {
+  text-align: center;
+  padding: 2px 6px;
+}
+
+footer {
+  clear: both;
+  border-top: 2px solid #676;
+  padding: 0.5em 30px; /* top-bottom, right-left */
+  background-color: #9a9;
+  text-align: right;
+}
+/*#container,
+header,
+main,
+nav,
+section,
+figure,
+footer {
+  box-sizing: border-box;
+}*/
