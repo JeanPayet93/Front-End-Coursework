@@ -2,6 +2,7 @@ body {
   margin: 0;
   background-color: #eee; /* note CSS spelling of 'color' */
   font-family: Arial, Helvetica, Verdana, sans-serif;
+ 
 }
 #container {
   /*
@@ -26,11 +27,12 @@ header h1 {
 
 h3 {
   font: bold;
+  color: #cdd0d7;
 }
 
 h4 {
   font: bold;
-  color: red;
+  color: #cdd0d7;
 }
 
 img {
@@ -43,7 +45,7 @@ nav {
   font-size: 1em;
   line-height: 2.5em;
   text-align: center;
-  background-color: red;
+  background-color: silver;
   /*border-bottom: 2px solid #565;*/
 }
 
@@ -53,7 +55,7 @@ nav2 {
   font-size: 1em;
   line-height: 2.5em;
   text-align: center;
-  background-color: red;
+  background-color: silver;
   float: left;
   position: relative;
   /*border-bottom: 2px solid #565;*/
@@ -67,7 +69,7 @@ nav2 a:visited {
   */
   width: 100%;
   display: block;
-  background-color: red;
+  background-color: silver;
   text-decoration: none;
   color: #000;
   border-bottom: 4px solid darkred;
@@ -93,7 +95,7 @@ nav a:visited {
   */
   width: 16%;
   display: inline-block;
-  background-color: red;
+  background-color: silver;
   text-decoration: none;
   color: #000;
   /*border-bottom: 4px solid #565;*/
@@ -115,7 +117,9 @@ main {
   clear: both;
   padding: 1em 30px 2em; /* top, right-left, bottom */
   background-color: #fff;
-  /*background: url("file://C:/Users/ZBookStudio/Desktop/Front End Coursework/Project/images/back.jpg") repeat;*/
+  background: #870000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #870000 , #190A05); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #870000 , #190A05); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-size: 1.25em;
   line-height: 1.85em;
   overflow: auto;
@@ -130,7 +134,7 @@ section h2 {
   font-size: 1.25em;
   margin: 0;
   border-top: 2px solid #676;
-  color: red;
+  color: #cdd0d7;
 }
 section:first-child h2 {
   border-top: none;
@@ -139,6 +143,7 @@ section:first-child h2 {
 
 section p {
   margin: 1em 0 0; /* top, right and left, bottom */
+  color: #cdd0d7;
 }
 section a[href="#"] {
   display: block;
