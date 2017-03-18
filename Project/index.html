@@ -13,6 +13,20 @@
       return false;
     }
   </script>
+
+  <script language="javascript" src="scripts/time.js"></script>
+
+  <script>
+
+  function test() {
+    
+  }
+// When the user clicks on <div>, open the popup
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+</script>
   
   <link rel="stylesheet" media="screen" type="text/css" href="/Handlers/YuiCompressorHandlerC.ashx?css=/styles/js/jQuery/SelectBox/jquery.selectBox&amp;v=460">
   <script type="text/javascript" src="/Handlers/YuiCompressorHandlerC.ashx?js=/styles/js/GoogleAnalytics/analytics&amp;v=460"></script>
@@ -206,7 +220,9 @@
                         <br />
                         12:00
                         <br />
-                        <a href="javascript:OpenPopup({url:'/Home/Fixtures And Results/Match Time Converter.aspx?matchTime=2017-03-19T12:00:00&amp;t=00:00'})">GMT</a>
+                        <a href="#modal1">
+                          GMT
+                        </a>
                       </td>
                     </tr>
                     <tr>
@@ -234,7 +250,7 @@
                         <br />
                         15:00
                         <br />
-                        <a href="javascript:OpenPopup({url:'/Home/Fixtures And Results/Match Time Converter.aspx?matchTime=2017-04-01T15:00:00&amp;t=1:00'})">
+                        <a href="#modal2">
                         BST
                         </a>
                       </td>
@@ -264,7 +280,7 @@
                             <br />
                             20:00
                             <br />
-                            <a href="javascript:OpenPopup({url:'/Home/Fixtures And Results/Match Time Converter.aspx?matchTime=2017-04-04T20:00:00&amp;t=1:00'})">
+                            <a>
                             BST
                             </a>
                           </td>
@@ -273,6 +289,111 @@
                       </table>
               </div>
               </div>
+            </div>
+            <!-- The Modal -->
+            <div id="modal1" class="modalDialog">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <a href="#close" title="Close" class="close">X</a>
+                <body class="blankpage">
+                <style type="text/css">
+                    blankpage {
+                        background-color: #f3f1f1;
+                        margin-left: 20px;
+                        font-family: arial, helvetica, sans-serif;
+                        color: #505050;
+                        position: relative;
+                        font-size: 70%;
+                    }
+                    
+                    #selCountry {
+                        font-size: 95%;
+                    }
+                    
+                    #redText {
+                        color: #cc0000;
+                        font-weight: bold;
+                    }
+                    
+                    #pageTitle {
+                        font-weight: bold;
+                        font-size: 130%;
+                    }
+                    
+                    div.text p {
+                        margin-top: 0px;
+                    }
+                </style>
+                <script type="text/javascript">
+                    var matchDate;
+                    matchDate = "19 Mar 2017 12:00:00 GMT+0000";
+                    d = new Date(matchDate);
+                </script>
+                <form name="frmTimeZone">
+                    <div id="pageTitle">Match Time Converter</div>
+                    <hr>
+                    <div class="text">
+                        <p>All matches are displayed in GMT/BST. Select a country to find out the kick-off time in your timezone.</p>
+                    </div>
+                    <p>Stated Kick-off time 19 Mar 2017 12:00:00</p>
+                    <select name="timeZone" onChange="javascript:getTimeZoneList('Please select a Time Zone');" id="selCountry" style="width:400px;">
+                      <option value="">Please select a Time Zone</option>
+                    <script type="text/javascript">
+                            for (x in timeZoneArray){
+                            document.write('<option value="' + x + '">' + timeZoneArray[x][1] + '</option>')
+                            }
+                        </script>
+                        </select><br><br>
+                        <select name="country" onChange="javascript:calcTime('Your kick-off time');" id="selCountry" style="width:400px;">
+                          <option value="">Please select country</option>
+                        <script type="text/javascript">
+                                    for (x in countryArray)	{
+                                    document.write('<option value="' + countryArray[x] + '">' + countryArray[x][0] + '</option>')
+                                    }
+                        </script>
+                        </select><br><br>
+                    <div id="result"></div>
+                </form>
+              </body>
+            </div>
+          </div>
+
+            
+            <script>
+              // Get the modal
+              var modal = document.getElementById('myModal');
+
+              // Get the button that opens the modal
+              var btn = document.getElementById("myBtn");
+
+              // Get the <span> element that closes the modal
+              var span = document.getElementsByClassName("close")[0];
+
+              // When the user clicks the button, open the modal 
+              btn.onclick = function() {
+                  modal.style.display = "block";
+              }
+
+              // When the user clicks on <span> (x), close the modal
+              span.onclick = function() {
+                  modal.style.display = "none";
+              }
+
+              // When the user clicks anywhere outside of the modal, close it
+              window.onclick = function(event) {
+                  if (event.target == modal) {
+                      modal.style.display = "none";
+                  }
+              }
+            </script>
+
+            
+
+             <div class="popup" onclick="myFunction()">Click me!
+              <span class="popuptext" id="myPopup">
+                
+              </span>
             </div>
 
           </section>
