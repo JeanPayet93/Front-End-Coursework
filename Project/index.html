@@ -14,19 +14,36 @@
     }
   </script>
 
+  <!-- Functions to manage content on display -->
+  <script>
+      function fucntion1() {
+        var x = document.getElementById('News1');
+        var page = document.getElementById('Page2')
+        if (x.style.display === 'none') {
+            x.style.display = 'block'
+            page.style.display = 'none';
+        } else {
+            x.style.display = 'none'
+            page.style.display = 'block';
+        }
+    }
+    </script>
+    <script>
+      function function2() {
+      var x2 = document.getElementById('Hist');
+      var page2 = document.getElementById('Page2')
+        if (x2.style.display == 'none') {
+            x2.style.display = 'block'
+            page2.style.display = 'none';
+        } else {
+            x2.style.display = 'none'
+            page2.style.display = 'block';
+        }
+      }
+    </script>
+
   <script language="javascript" src="scripts/time.js"></script>
 
-  <script>
-
-  function test() {
-    
-  }
-// When the user clicks on <div>, open the popup
-function myFunction() {
-    var popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
-}
-</script>
   
   <link rel="stylesheet" media="screen" type="text/css" href="/Handlers/YuiCompressorHandlerC.ashx?css=/styles/js/jQuery/SelectBox/jquery.selectBox&amp;v=460">
   <script type="text/javascript" src="/Handlers/YuiCompressorHandlerC.ashx?js=/styles/js/GoogleAnalytics/analytics&amp;v=460"></script>
@@ -140,7 +157,7 @@ function myFunction() {
                 <p>
                   Jose Mourinho explains why he feels Paul Pogba is being unfairly treated by football pundits.
                 </p>
-                <a href="#" onclick="return show('News1','Page2');">Continue</a>
+                <button onclick="function1()">Click Me</button>
               </section>
               
               <a href="#">TOP</a>
@@ -354,10 +371,10 @@ function myFunction() {
                         </script>
                         </select><br><br>
                     <div id="result"></div>
-                </form>
-              </body>
+                  </form>
+                </body>
+              </div>
             </div>
-          </div>
 
             
             <script>
@@ -388,33 +405,62 @@ function myFunction() {
               }
             </script>
 
-            
+            </section>
 
-             <div class="popup" onclick="myFunction()">Click me!
-              <span class="popuptext" id="myPopup">
-                
-              </span>
-            </div>
+            <section id="History">
+              <h2>History</h2>
+              <p>
+                  Manchester United Football Club is a professional football club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of English football. Nicknamed "the Red Devils", the club was founded as Newton Heath LYR Football Club in 1878, changed its name to Manchester United in 1902 and moved to its current stadium, Old Trafford, in 1910.
+              </p>
+              <button onclick="function2()">Click Me</button>
+            </section>
 
-          </section>
+            <section id="Gallery">
+              <h2>Gallery</h2>
+                <ul id="myGallery">
+                    <li><img data-frame="images/enter.jpg" src="images/enter.jpg" title="Lone Tree Yellowstone" data-description="A solitary tree surviving another harsh winter in Yellowstone National Park. Yellowstone National Park, Wyoming. (Photo and caption by Anita Erdmann/Nature/National Geographic Photo Contest) " />
+                    <li><img data-frame="images/nf.jpg" src="images/nf.jpg" title="Is He Still There?!" data-description="One morning while on the Big Island of Hawaii, i exploring my surroundings to see if i could find something to photograph. I almost went back inside when something on this huge palm tree leaf caught my eye. I stayed around and it was this little gecko, startled by my presence he was hidden between the ridges of the leaf. He would pop his head up periodically to check his surroundings, as soon as he saw i was still there he would hide again. We played this game for a while until i got the shot. Holualoa big Island, Hawaii. (Photo and caption by Lorenzo Menendez/Nature/National Geographic Photo Contest)" />
+                    <li><img data-frame="images/pg.jpg" src="images/pg.jpg" title="Noni Nectar For Green Gecko" data-description="Madagascar Gold Dust Day Gecko licking nectar from a young noni fruit in Kailua, Hawaii. These geckos were living all around the hale' we were staying in, enjoying the noni and basking on the railing and sunny steps to our place. They were very shy mostly, except this one must have enjoyed the nectar so much as to let me get a shot of their favorite activity. They seemed to tend the noni very attentively throughout the day. August 2010, Chandra S Sherin. Kona Village Resort, Kailua - Kona, Hawaii. (Photo and Caption by Chandra Sherin/Nature/National Geographic Photo Contest)" />
+                  
+                </ul>
+            </section>
 
-          <section id="History">
-            <h2>History</h2>
-            <p>
-                Manchester United Football Club is a professional football club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of English football. Nicknamed "the Red Devils", the club was founded as Newton Heath LYR Football Club in 1878, changed its name to Manchester United in 1902 and moved to its current stadium, Old Trafford, in 1910.
-            </p>
-            <a href="#" onclick="return show('Hist','Page2');">Learn More</a>
-          </section>
+            <section id="Team">
+              <h2>
+                Team
+              </h2>
 
-           <section id="Gallery">
-             <h2>Gallery</h2>
-              <ul id="myGallery">
-                  <li><img data-frame="images/enter.jpg" src="images/enter.jpg" title="Lone Tree Yellowstone" data-description="A solitary tree surviving another harsh winter in Yellowstone National Park. Yellowstone National Park, Wyoming. (Photo and caption by Anita Erdmann/Nature/National Geographic Photo Contest) " />
-                  <li><img data-frame="images/nf.jpg" src="images/nf.jpg" title="Is He Still There?!" data-description="One morning while on the Big Island of Hawaii, i exploring my surroundings to see if i could find something to photograph. I almost went back inside when something on this huge palm tree leaf caught my eye. I stayed around and it was this little gecko, startled by my presence he was hidden between the ridges of the leaf. He would pop his head up periodically to check his surroundings, as soon as he saw i was still there he would hide again. We played this game for a while until i got the shot. Holualoa big Island, Hawaii. (Photo and caption by Lorenzo Menendez/Nature/National Geographic Photo Contest)" />
-                  <li><img data-frame="images/pg.jpg" src="images/pg.jpg" title="Noni Nectar For Green Gecko" data-description="Madagascar Gold Dust Day Gecko licking nectar from a young noni fruit in Kailua, Hawaii. These geckos were living all around the hale' we were staying in, enjoying the noni and basking on the railing and sunny steps to our place. They were very shy mostly, except this one must have enjoyed the nectar so much as to let me get a shot of their favorite activity. They seemed to tend the noni very attentively throughout the day. August 2010, Chandra S Sherin. Kona Village Resort, Kailua - Kona, Hawaii. (Photo and Caption by Chandra Sherin/Nature/National Geographic Photo Contest)" />
-                
-              </ul>
-          </section>
+            <table class="frmain" border="0" cellpadding="0" cellspacing="0">
+                  <thead>
+                    <tr class="fHeader">
+                      <th>
+                        <h3>FIRST TEAM</h3>
+                        <a href="#" onclick="return show('FirstTeam','Page2');"><img src="images/team/degea.jpg" alt="" height="119" width="112"></a>
+                      </th>
+                      <th>
+                        <h3>MANAGER</h3>
+                        <a href="/en/Players-And-Staff/Managers/Jose-Mourinho.aspx"><img src="images/team/jose.jpg" alt="" height="119" width="110"></a>
+                      </th>
+                      <th>
+                        <h3>COACHES</h3>
+                        <a href="http://www.manutd.com/en/News-And-Features/Football-News/2016/Jul/photo-gallery-of-jose-mourinho-coaching-staff-at-manchester-united.aspx?PAS"><img src="images/team/rui.jpg" alt="" height="119" width="112"></a>
+                      </th>
+                      <th>
+                        <h3>LEGENDS</h3>
+                        <a href="/en/History/Legends.aspx"><img src="images/team/giggs.jpg" alt="" height="119" width="111"></a>
+                      </th>
+                  </tr>
+                  </thead>
+            </section>
+
+
+
+
+
+
+
+
+
         </div>
 
 
@@ -453,7 +499,7 @@ function myFunction() {
                   "He is a kid that came to Manchester as a teenager, that fought for his career here, that was not afraid to move and to go to another country and to look for better conditions for him. A kid that reached the top of the world with his work, nobody gave him anything.
 
                   "I'm very happy with Paul. The club is very happy with Paul and I think also a good thing is that because of his personality, he doesn't given an ass what people say."
-                  <a href="#" onclick="return show('Page2','News1');">Return</a>
+                  <button onclick="function1()">Click Me</button>
               </p>
           </div>
 
@@ -484,7 +530,15 @@ function myFunction() {
             <script async defer
               src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6DDSPso0LksDhuV3a-mN00BjTXRHx9mU&callback=initMap">
             </script>
+            <button onclick="function2()">Click Me</button>
           </div>
+
+          <div id="FirstTeam" style="display:none">
+            <p>
+            Hello
+            </p>
+          </div>
+
         </main>
     </div>
 </body>
