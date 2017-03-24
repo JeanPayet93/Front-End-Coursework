@@ -4,7 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Official Fan Page</title>
-  <link rel="stylesheet" href="styles/styles2.css">
+  <link rel="stylesheet" href="styles/stylesmanu.css">
+  <script type="text/javascript" src="scripts/pagination.js"></script>
+  <script language="javascript" src="scripts/time.js"></script>
+
+  <!-- Could not get to work -->
+  <script type="text/javascript" src="scripts/jquery.DOMWindow.js"></script>
+  <link rel="stylesheet" href="styles/jquery-ui-themeroller.css" type="text/css" media="screen">
+ <!-- End of failed attempts -->
+    
+    
 
   <script>
     function show(shown, hidden) {
@@ -13,100 +22,205 @@
       return false;
     }
   </script>
-
-  <!-- Functions to manage content on display -->
+  
   <script>
-      function fucntion1() {
+      function myFunction() {
         var x = document.getElementById('News1');
-        var page = document.getElementById('Page2')
+        var page = document.getElementById('Page2');
+        var nav = document.getElementById('nav1');
         if (x.style.display === 'none') {
             x.style.display = 'block'
-            page.style.display = 'none';
+            page.style.display = 'none'
+            nav.style.display = 'none';
         } else {
             x.style.display = 'none'
-            page.style.display = 'block';
+            page.style.display = 'block'
+            nav.style.display = 'block';
         }
     }
     </script>
     <script>
       function function2() {
       var x2 = document.getElementById('Hist');
-      var page2 = document.getElementById('Page2')
+      var page2 = document.getElementById('Page2');
+      var nav2 = document.getElementById('nav1');
         if (x2.style.display == 'none') {
             x2.style.display = 'block'
-            page2.style.display = 'none';
+            page2.style.display = 'none'
+            nav2.style.display = 'none';
         } else {
             x2.style.display = 'none'
             page2.style.display = 'block';
+            nav2.style.display = 'block';
         }
       }
     </script>
+    <script>
+      function function3() {
+      var x3 = document.getElementById('FirstTeam');
+      var page3 = document.getElementById('Page2');
+      var nav3 = document.getElementById('nav1');
+        if (x3.style.display == 'none') {
+            x3.style.display = 'block'
+            page3.style.display = 'none';
+            nav3.style.display = 'none';
+        } else {
+            x3.style.display = 'none'
+            page3.style.display = 'block';
+            nav3.style.display = 'block';
+        }
+      }
+    </script>
+    <script>
+      function function4() {
+      var x4 = document.getElementById('Manager');
+      var page4 = document.getElementById('Page2');
+      var nav4 = document.getElementById('nav1');
+        if (x4.style.display == 'none') {
+            x4.style.display = 'block'
+            page4.style.display = 'none';
+            nav4.style.display = 'none';
+        } else {
+            x4.style.display = 'none'
+            page4.style.display = 'block';
+            nav4.style.display = 'block';
+        }
+      }
+    </script>
+    <script>
+      function function5() {
+      var x5 = document.getElementById('Coaches');
+      var page5 = document.getElementById('Page2');
+      var nav5 = document.getElementById('nav1');
+        if (x5.style.display == 'none') {
+            x5.style.display = 'block'
+            page5.style.display = 'none';
+            nav5.style.display = 'none';
+        } else {
+            x5.style.display = 'none'
+            page5.style.display = 'block';
+            nav5.style.display = 'block';
+        }
+      }
+    </script>
+    <script>
+      function function6() {
+        var x6 = document.getElementById('News2');
+        var page6 = document.getElementById('Page2');
+        var nav6 = document.getElementById('nav1');
+        if (x6.style.display === 'none') {
+            x6.style.display = 'block'
+            page6.style.display = 'none'
+            nav6.style.display = 'none';
+        } else {
+            x6.style.display = 'none'
+            page6.style.display = 'block'
+            nav6.style.display = 'block';
+        }
+    }
+    </script>
 
-  <script language="javascript" src="scripts/time.js"></script>
+    <!-- Javascript and Styles for Gallery -->
 
-  
-  <link rel="stylesheet" media="screen" type="text/css" href="/Handlers/YuiCompressorHandlerC.ashx?css=/styles/js/jQuery/SelectBox/jquery.selectBox&amp;v=460">
-  <script type="text/javascript" src="/Handlers/YuiCompressorHandlerC.ashx?js=/styles/js/GoogleAnalytics/analytics&amp;v=460"></script>
-  <script type="text/javascript" src="/Handlers/YuiCompressorHandlerC.ashx?js=/styles/js/Jquery/SelectBox/jquery.selectBox.min,/styles/js/jQuery/JQuery.cookie&amp;v=460"></script>
+    <link rel="stylesheet" media="screen" type="text/css" href="/Handlers/YuiCompressorHandlerC.ashx?css=/styles/js/jQuery/SelectBox/jquery.selectBox&amp;v=460">
+    <script type="text/javascript" src="/Handlers/YuiCompressorHandlerC.ashx?js=/styles/js/GoogleAnalytics/analytics&amp;v=460"></script>
+    <script type="text/javascript" src="/Handlers/YuiCompressorHandlerC.ashx?js=/styles/js/Jquery/SelectBox/jquery.selectBox.min,/styles/js/jQuery/JQuery.cookie&amp;v=460"></script>
 
-  <!-- First, add jQuery (and jQuery UI if using custom easing or animation -->
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+    <!-- First, add jQuery (and jQuery UI if using custom easing or animation -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
 
-  <!-- Second, add the Timer and Easing plugins -->
-  <script type="text/javascript" src="GalleryView-master/js/jquery.timers-1.2.js"></script>
-  <script type="text/javascript" src="GalleryView-master/js/jquery.easing.1.3.js"></script>
+    <!-- Second, add the Timer and Easing plugins -->
+    <script type="text/javascript" src="GalleryView-master/js/jquery.timers-1.2.js"></script>
+    <script type="text/javascript" src="GalleryView-master/js/jquery.easing.1.3.js"></script>
 
-  <!-- Third, add the GalleryView Javascript and CSS files -->
-  <script type="text/javascript" src="GalleryView-master/js/jquery.galleryview-3.0-dev.js"></script>
-  <link type="text/css" rel="stylesheet" href="GalleryView-master/css/jquery.galleryview-3.0-dev.css" />
+    <!-- Third, add the GalleryView Javascript and CSS files -->
+    <script type="text/javascript" src="GalleryView-master/js/jquery.galleryview-3.0-dev.js"></script>
+    <link type="text/css" rel="stylesheet" href="GalleryView-master/css/jquery.galleryview-3.0-dev.css" />
 
-  <!-- Lastly, call the galleryView() function on your unordered list(s) -->
-  <script type="text/javascript">
-    $(function(){
-      $('#myGallery').galleryView({
-      transition_speed: 2000, 		//INT - duration of panel/frame transition (in milliseconds)
-      transition_interval: 4000, 		//INT - delay between panel/frame transitions (in milliseconds)
-      easing: 'swing', 				//STRING - easing method to use for animations (jQuery provides 'swing' or 'linear', more available with jQuery UI or Easing plugin)
-      show_panels: true, 				//BOOLEAN - flag to show or hide panel portion of gallery
-      show_panel_nav: false, 			//BOOLEAN - flag to show or hide panel navigation buttons
-      enable_overlays: true, 			//BOOLEAN - flag to show or hide panel overlays
-      
-      panel_width: 900, 				//INT - width of gallery panel (in pixels)
-      panel_height: 500, 				//INT - height of gallery panel (in pixels)
-      panel_animation: 'slide', 		//STRING - animation method for panel transitions (crossfade,fade,slide,none)
-      panel_scale: 'crop', 			//STRING - cropping option for panel images (crop = scale image and fit to aspect ratio determined by panel_width and panel_height, fit = scale image and preserve original aspect ratio)
-      overlay_position: 'bottom', 	//STRING - position of panel overlay (bottom, top)
-      pan_images: true,				//BOOLEAN - flag to allow user to grab/drag oversized images within gallery
-      pan_style: 'drag',				//STRING - panning method (drag = user clicks and drags image to pan, track = image automatically pans based on mouse position
-      pan_smoothness: 15,				//INT - determines smoothness of tracking pan animation (higher number = smoother)
-      start_frame: 1, 				//INT - index of panel/frame to show first when gallery loads
-      show_filmstrip: true, 			//BOOLEAN - flag to show or hide filmstrip portion of gallery
-      show_filmstrip_nav: true, 		//BOOLEAN - flag indicating whether to display navigation buttons
-      enable_slideshow: false,			//BOOLEAN - flag indicating whether to display slideshow play/pause button
-      autoplay: false,				//BOOLEAN - flag to start slideshow on gallery load
-      show_captions: true, 			//BOOLEAN - flag to show or hide frame captions	
-      filmstrip_size: 3, 				//INT - number of frames to show in filmstrip-only gallery
-      filmstrip_style: 'scroll', 		//STRING - type of filmstrip to use (scroll = display one line of frames, scroll filmstrip if necessary, showall = display multiple rows of frames if necessary)
-      filmstrip_position: 'bottom', 	//STRING - position of filmstrip within gallery (bottom, top, left, right)
-      frame_width: 164, 				//INT - width of filmstrip frames (in pixels)
-      frame_height: 80, 				//INT - width of filmstrip frames (in pixels)
-      frame_opacity: 0.5, 			//FLOAT - transparency of non-active frames (1.0 = opaque, 0.0 = transparent)
-      frame_scale: 'crop', 			//STRING - cropping option for filmstrip images (same as above)
-      frame_gap: 5, 					//INT - spacing between frames within filmstrip (in pixels)
-      show_infobar: true,				//BOOLEAN - flag to show or hide infobar
-      infobar_opacity: 1				//FLOAT - transparency for info bar
-      });
-    });
-  </script>
+    <!-- Lastly, call the galleryView() function on your unordered list(s) -->
+    <script type="text/javascript">
+        $(function(){
+        $('#myGallery').galleryView({
+        transition_speed: 2000, 		//INT - duration of panel/frame transition (in milliseconds)
+        transition_interval: 4000, 		//INT - delay between panel/frame transitions (in milliseconds)
+        easing: 'swing', 				//STRING - easing method to use for animations (jQuery provides 'swing' or 'linear', more available with jQuery UI or Easing plugin)
+        show_panels: true, 				//BOOLEAN - flag to show or hide panel portion of gallery
+        show_panel_nav: false, 			//BOOLEAN - flag to show or hide panel navigation buttons
+        enable_overlays: true, 			//BOOLEAN - flag to show or hide panel overlays
+        
+        panel_width: 900, 				//INT - width of gallery panel (in pixels)
+        panel_height: 500, 				//INT - height of gallery panel (in pixels)
+        panel_animation: 'crossfade', 		//STRING - animation method for panel transitions (crossfade,fade,slide,none)
+        panel_scale: 'fit', 			//STRING - cropping option for panel images (crop = scale image and fit to aspect ratio determined by panel_width and panel_height, fit = scale image and preserve original aspect ratio)
+        overlay_position: 'bottom', 	//STRING - position of panel overlay (bottom, top)
+        pan_images: true,				//BOOLEAN - flag to allow user to grab/drag oversized images within gallery
+        pan_style: 'drag',				//STRING - panning method (drag = user clicks and drags image to pan, track = image automatically pans based on mouse position
+        pan_smoothness: 15,				//INT - determines smoothness of tracking pan animation (higher number = smoother)
+        start_frame: 1, 				//INT - index of panel/frame to show first when gallery loads
+        show_filmstrip: true, 			//BOOLEAN - flag to show or hide filmstrip portion of gallery
+        show_filmstrip_nav: true, 		//BOOLEAN - flag indicating whether to display navigation buttons
+        enable_slideshow: true,			//BOOLEAN - flag indicating whether to display slideshow play/pause button
+        autoplay: true,				//BOOLEAN - flag to start slideshow on gallery load
+        show_captions: true, 			//BOOLEAN - flag to show or hide frame captions	
+        filmstrip_size: 3, 				//INT - number of frames to show in filmstrip-only gallery
+        filmstrip_style: 'scroll', 		//STRING - type of filmstrip to use (scroll = display one line of frames, scroll filmstrip if necessary, showall = display multiple rows of frames if necessary)
+        filmstrip_position: 'bottom', 	//STRING - position of filmstrip within gallery (bottom, top, left, right)
+        frame_width: 164, 				//INT - width of filmstrip frames (in pixels)
+        frame_height: 80, 				//INT - width of filmstrip frames (in pixels)
+        frame_opacity: 0.5, 			//FLOAT - transparency of non-active frames (1.0 = opaque, 0.0 = transparent)
+        frame_scale: 'crop', 			//STRING - cropping option for filmstrip images (same as above)
+        frame_gap: 5, 					//INT - spacing between frames within filmstrip (in pixels)
+        show_infobar: true,				//BOOLEAN - flag to show or hide infobar
+        infobar_opacity: 1				//FLOAT - transparency for info bar
+        });
+        });
+    </script>
 
-  <style>
+    <script type="text/javascript">
+        $(function(){
+            $('#Gallery2').galleryView({
+                transition_speed: 2000, 		//INT - duration of panel/frame transition (in milliseconds)
+                transition_interval: 4000, 		//INT - delay between panel/frame transitions (in milliseconds)
+                easing: 'swing', 				//STRING - easing method to use for animations (jQuery provides 'swing' or 'linear', more available with jQuery UI or Easing plugin)
+                show_panels: true, 				//BOOLEAN - flag to show or hide panel portion of gallery
+                show_panel_nav: false, 			//BOOLEAN - flag to show or hide panel navigation buttons
+                enable_overlays: true, 			//BOOLEAN - flag to show or hide panel overlays
+                
+                panel_width: 900, 				//INT - width of gallery panel (in pixels)
+                panel_height: 500, 				//INT - height of gallery panel (in pixels)
+                panel_animation: 'slide', 		//STRING - animation method for panel transitions (crossfade,fade,slide,none)
+                panel_scale: 'fit', 			//STRING - cropping option for panel images (crop = scale image and fit to aspect ratio determined by panel_width and panel_height, fit = scale image and preserve original aspect ratio)
+                overlay_position: 'bottom', 	//STRING - position of panel overlay (bottom, top)
+                pan_images: true,				//BOOLEAN - flag to allow user to grab/drag oversized images within gallery
+                pan_style: 'drag',				//STRING - panning method (drag = user clicks and drags image to pan, track = image automatically pans based on mouse position
+                pan_smoothness: 15,				//INT - determines smoothness of tracking pan animation (higher number = smoother)
+                start_frame: 1, 				//INT - index of panel/frame to show first when gallery loads
+                show_filmstrip: true, 			//BOOLEAN - flag to show or hide filmstrip portion of gallery
+                show_filmstrip_nav: true, 		//BOOLEAN - flag indicating whether to display navigation buttons
+                enable_slideshow: false,			//BOOLEAN - flag indicating whether to display slideshow play/pause button
+                autoplay: false,				//BOOLEAN - flag to start slideshow on gallery load
+                show_captions: true, 			//BOOLEAN - flag to show or hide frame captions	
+                filmstrip_size: 3, 				//INT - number of frames to show in filmstrip-only gallery
+                filmstrip_style: 'scroll', 		//STRING - type of filmstrip to use (scroll = display one line of frames, scroll filmstrip if necessary, showall = display multiple rows of frames if necessary)
+                filmstrip_position: 'bottom', 	//STRING - position of filmstrip within gallery (bottom, top, left, right)
+                frame_width: 164, 				//INT - width of filmstrip frames (in pixels)
+                frame_height: 80, 				//INT - width of filmstrip frames (in pixels)
+                frame_opacity: 0.5, 			//FLOAT - transparency of non-active frames (1.0 = opaque, 0.0 = transparent)
+                frame_scale: 'crop', 			//STRING - cropping option for filmstrip images (same as above)
+                frame_gap: 5, 					//INT - spacing between frames within filmstrip (in pixels)
+                show_infobar: true,				//BOOLEAN - flag to show or hide infobar
+                infobar_opacity: 1				//FLOAT - transparency for info bar
+            });
+        });
+    </script>
+
+    <style>
        #map {
         height: 400px;
         width: 100%;
        }
-  </style>
-
+    </style>
 
 </head>
 
@@ -127,284 +241,309 @@
                 <img src="images/enter.jpg" alt="Enter Website">
             </img>
             <p>
-              Enter Website>
-              <a href="#" onclick="return show('Page2','Page1');">Enter</a>
+                <a href="#" onclick="return show('Page2','Page1');" style="color: white">Enter Website</a>
             </p>
         </div>
 
         <div id="Page2" style="display:none">
-          <nav2>
-              <a href="#NewFeat">News and Features</a><a href="#Fixtures">Fixtures and Results</a><a href="#History">History</a><a href="#Gallery">Gallery</a><a href="#Team">Team</a>
-          </nav2>
+            <div class="navbar">
+                <a href="#Gallery">Gallery</a><a href="#NewFeat">News and Features</a><a href="#Fixtures">Fixtures</a><a href="#History">History</a><a href="#Team">Team</a>
+            </div>
 
-          <section id="NewFeat">
+            <section id="Gallery">
+              <h2>Gallery</h2>
+              <div align="center" >
+                <ul id="myGallery">
+                    <li><img data-frame="images/oldtraff.jpg" src="images/oldtraff.jpg" title="Old Trafford Main" data-description="Old Trafford is a football stadium in Old Trafford, Greater Manchester, England, and the home of Manchester United." />
+                    <li><img data-frame="images/oldtraff1.jpg" src="images/oldtraff1.jpg" title="Old Trafford Side View" data-description="With a capacity of 75,643, it is the largest club stadium of any football team in the United Kingdom, the third-largest stadium and the second-largest football stadium in the United Kingdom, and the eleventh-largest in Europe." />
+                    <li><img data-frame="images/oldtraff2.jpg" src="images/oldtraff2.jpg" title="Old Trafford Side View" data-description="Nicknamed 'The Theatre of Dreams' by Bobby Charlton, Old Trafford has been United's home ground since 1910, although from 1941 to 1949 the club shared Maine Road with local rivals Manchester City as a result of Second World War bomb damage. Old Trafford underwent several expansions in the 1990s, and 2000s, including the addition of extra tiers to the North, West and East Stands, almost returning the stadium to its original capacity of 80,000" />
+                    <li><img data-frame="images/oldtraff3.jpg" src="images/oldtraff3.jpg" title="Old Trafford Aerial  View" data-description="Future expansion is likely to involve the addition of a second tier to the South Stand, which would raise the capacity to around 95,000. The stadium's record attendance was recorded in 1939, when 76,962 spectators watched the FA Cup semi-final between Wolverhampton Wanderers and Grimsby Town." />
+                    <li><img data-frame="images/oldtraff4.jpg" src="images/oldtraff4.jpg" title="Old Trafford Aerial  View" data-description="Old Trafford has hosted FA Cup semi-finals, England fixtures, matches at the 1966 World Cup and Euro 96 and the 2003 Champions League Final, as well as rugby league's annual Super League Grand Final and the final of two Rugby League World Cups. It also hosted football matches at the 2012 Summer Olympics, including women's international football for the first time in its history." />
+                    <li><img data-frame="images/kit1.jpg" src="images/kit1.jpg" title="Kit" data-description="You can’t grace the grounds of the theatre of dreams without being dressed for the occasion with a Manchester United kit!!" />
+                </ul>
+              </div>
+                <a href="#">TOP</a>
+            </section>
+
+            <section id="NewFeat">
             <h2>News and Features</h2>
 
-              <figure>
-                  <img src="images/nf.jpg" width="500" height="352" alt="">
-              </figure>
-              
-
-              <section>
-                  <img>
-                      <img src="images/pg.jpg" width="500" height="352" alt="">
-                  </img>
-              </section>
-              <section>
-                <h3>
-                    Pogba deserves more respect
-                </h3>
+                <figure>
+                    <img src="images/nf.jpg" width="500" height="352" alt="">
+                </figure>
                 <p>
-                  Jose Mourinho explains why he feels Paul Pogba is being unfairly treated by football pundits.
-                </p>
-                <button onclick="function1()">Click Me</button>
-              </section>
-              
-              <a href="#">TOP</a>
-          </section>
 
-          <section id="Fixtures">
-            <h2>
-              Fixtures and Results
-            </h2>
-            
-            <div id="tableContainer-1">
-              <div id="tableContainer-2">
-              <div id="contentcontainer">
-                <table class="frmain" border="0" cellpadding="0" cellspacing="0">
-                  <thead>
-                    <tr class="fHeader">
-                      <th>
-                        DATE
-                      </th>
-                      <th>
-                        COMPETITION
-                      </th>
-                      <th>
-                        FIXTURES
-                      </th>
-                      <th>
-                        VENUE
-                      </th>
-                      <th>
-                        SCORE
-                      </th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="date">
-                        16 March 2017
-                      </td>
-                      <td class="type"><img src="http://www.manutd.com/~/media/07BE2738C1BE49DEA2C5F1B59FF0176B.ashx?h=47&w=68" alt="" width="68" height="47" /></td>
-                      <td>
-                        <img src="http://www.manutd.com/~/media/AC4AD80054D44492A7FD375782AC9DB6.ashx?h=37&w=37" alt="" width="37" height="37" />
-                        <span class="v">
-                          V
-                        </span>
-                        <img src="http://www.manutd.com/~/media/E523238E0C204B12A24A6B17ADFB2164.ashx?h=36&w=37" alt="" width="37" height="36" />
-                        <span class="teams">
-                          United V FC Rostov
-                        </span>
-                      </td>
-                      <td>
-                        H
-                      </td>
-                      <td class="score">
-                        1 - 0
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="date">
-                        19 March 2017
-                      </td>
-                      <td class="type">
-                        <img src="http://www.manutd.com/~/media/D3FD0704672C4C2FB14AA74323A68F19.ashx?h=47&w=68" alt="" width="68" height="47" />
-                      </td>
-                      <td>
-                        <img src="http://www.manutd.com/~/media/3ABCDCBDC60D4F4D9206281FE0C2E1E3.ashx?h=37&w=36" alt="" width="36" height="37" />
-                        <span class="v">V</span>
-                        <img src="http://www.manutd.com/~/media/AC4AD80054D44492A7FD375782AC9DB6.ashx?h=37&w=37" alt="" width="37" height="37" />
-                        <span class="teams">
-                          Middlesbrough V United
-                        </span>
-                      </td>
-                      <td>
-                        A
-                      </td>
-                      <td class="kickoff">
-                        KO
-                        <br />
-                        12:00
-                        <br />
-                        <a href="#modal1">
-                          GMT
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="date">
-                        01 April 2017
-                      </td>
-                      <td class="type">
-                        <img src="http://www.manutd.com/~/media/D3FD0704672C4C2FB14AA74323A68F19.ashx?h=47&w=68" alt="" width="68" height="47" />
-                      </td>
-                      <td>
-                        <img src="http://www.manutd.com/~/media/AC4AD80054D44492A7FD375782AC9DB6.ashx?h=37&w=37" alt="" width="37" height="37" />
-                        <span class="v">
-                          V
-                        </span>
-                        <img src="http://www.manutd.com/~/media/2438D83D3EF0493E9B711973D2B4B30F.ashx?h=37&w=37" alt="" width="37" height="37" />
-                        <span class="teams">
-                          United V West Brom
-                        </span>
-                      </td>
-                      <td>
-                        H
-                        </td>
-                      <td class="kickoff">
-                        KO
-                        <br />
-                        15:00
-                        <br />
-                        <a href="#modal2">
-                        BST
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="date">
-                        04 April 2017
-                      </td>
-                      <td class="type">
-                        <img src="http://www.manutd.com/~/media/D3FD0704672C4C2FB14AA74323A68F19.ashx?h=47&w=68" alt="" width="68" height="47" />
-                      </td>
-                      <td>
-                        <img src="http://www.manutd.com/~/media/AC4AD80054D44492A7FD375782AC9DB6.ashx?h=37&w=37" alt="" width="37" height="37" />
-                        <span class="v">
-                          V
-                        </span>
-                        <img src="http://www.manutd.com/~/media/2DEA1D377FA34E0C8C4F27A3D22AD5F7.ashx?h=37&w=37" alt="" width="37" height="37" />
-                        <span class="teams">
-                          United V Everton
-                          </span>
-                          </td>
-                          <td>
-                            H
-                          </td>
-                          <td class="kickoff">
-                            KO
-                            <br />
-                            20:00
-                            <br />
-                            <a>
-                            BST
-                            </a>
-                          </td>
-                          </tr>
-                        </tbody>
-                      </table>
-              </div>
-              </div>
-            </div>
-            <!-- The Modal -->
-            <div id="modal1" class="modalDialog">
+                <section>
+                    <img>
+                        <img src="images/pg.jpg" width="500" height="352" alt="">
+                    </img>
+                </section>
 
-              <!-- Modal content -->
-              <div class="modal-content">
-                <a href="#close" title="Close" class="close">X</a>
-                <body class="blankpage">
-                <style type="text/css">
-                    blankpage {
-                        background-color: #f3f1f1;
-                        margin-left: 20px;
-                        font-family: arial, helvetica, sans-serif;
-                        color: #505050;
-                        position: relative;
-                        font-size: 70%;
-                    }
-                    
-                    #selCountry {
-                        font-size: 95%;
-                    }
-                    
-                    #redText {
-                        color: #cc0000;
-                        font-weight: bold;
-                    }
-                    
-                    #pageTitle {
-                        font-weight: bold;
-                        font-size: 130%;
-                    }
-                    
-                    div.text p {
-                        margin-top: 0px;
-                    }
-                </style>
-                <script type="text/javascript">
-                    var matchDate;
-                    matchDate = "19 Mar 2017 12:00:00 GMT+0000";
-                    d = new Date(matchDate);
-                </script>
-                <form name="frmTimeZone">
-                    <div id="pageTitle">Match Time Converter</div>
-                    <hr>
-                    <div class="text">
-                        <p>All matches are displayed in GMT/BST. Select a country to find out the kick-off time in your timezone.</p>
+                <section>
+                    <h3 style="border-top: none">
+                        Pogba deserves more respect
+                    </h3>
+                    <p>
+                        Jose Mourinho explains why he feels Paul Pogba is being unfairly treated by football pundits.
+                    </p>
+                    <button onclick="myFunction()">Read More</button>
+                </section>
+                <section>
+                    <h3>
+                        Sir Alex wanted Maldini
+                    </h3>
+                    <p>
+                        Sir Alex Ferguson says he once made and enquiry for Milan star Paolo Maldini
+                    </p>
+                    <button onclick="function6()">Read More</button>
+                </section>
+                
+                <a href="#">TOP</a>
+            </section>
+
+            <section id="Fixtures">
+                <h2>
+                Fixtures and Results
+                </h2>
+                <!-- This table container was added to ensure the table was centered on the page -->
+                <div id="tableContainer-1">
+                    <div id="tableContainer-2">
+                        <div id="contentcontainer">
+                            <table class="frmain" border="0" cellpadding="0" cellspacing="0">
+                            <thead>
+                                <tr class="fHeader">
+                                <th>
+                                    DATE
+                                </th>
+                                <th>
+                                    COMPETITION
+                                </th>
+                                <th>
+                                    FIXTURES
+                                </th>
+                                <th>
+                                    VENUE
+                                </th>
+                                <th>
+                                    SCORE
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <td class="date">
+                                    16 March 2017
+                                </td>
+                                <td class="type"><img src="http://www.manutd.com/~/media/07BE2738C1BE49DEA2C5F1B59FF0176B.ashx?h=47&w=68" alt="" width="68" height="47" /></td>
+                                <td>
+                                    <img src="http://www.manutd.com/~/media/AC4AD80054D44492A7FD375782AC9DB6.ashx?h=37&w=37" alt="" width="37" height="37" />
+                                    <span class="v">
+                                    V
+                                    </span>
+                                    <img src="http://www.manutd.com/~/media/E523238E0C204B12A24A6B17ADFB2164.ashx?h=36&w=37" alt="" width="37" height="36" />
+                                    <span class="teams">
+                                    United V FC Rostov
+                                    </span>
+                                </td>
+                                <td>
+                                    H
+                                </td>
+                                <td class="score">
+                                    1 - 0
+                                </td>
+                                </tr>
+                                <tr>
+                                <td class="date">
+                                    19 March 2017
+                                </td>
+                                <td class="type">
+                                    <img src="http://www.manutd.com/~/media/D3FD0704672C4C2FB14AA74323A68F19.ashx?h=47&w=68" alt="" width="68" height="47" />
+                                </td>
+                                <td>
+                                    <img src="http://www.manutd.com/~/media/3ABCDCBDC60D4F4D9206281FE0C2E1E3.ashx?h=37&w=36" alt="" width="36" height="37" />
+                                    <span class="v">V</span>
+                                    <img src="http://www.manutd.com/~/media/AC4AD80054D44492A7FD375782AC9DB6.ashx?h=37&w=37" alt="" width="37" height="37" />
+                                    <span class="teams">
+                                    Middlesbrough V United
+                                    </span>
+                                </td>
+                                <td>
+                                    A
+                                </td>
+                                <td class="kickoff">
+                                    KO
+                                    <br />
+                                    12:00
+                                    <br />
+                                    <a href="#modal1">
+                                    GMT
+                                    </a>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td class="date">
+                                    01 April 2017
+                                </td>
+                                <td class="type">
+                                    <img src="http://www.manutd.com/~/media/D3FD0704672C4C2FB14AA74323A68F19.ashx?h=47&w=68" alt="" width="68" height="47" />
+                                </td>
+                                <td>
+                                    <img src="http://www.manutd.com/~/media/AC4AD80054D44492A7FD375782AC9DB6.ashx?h=37&w=37" alt="" width="37" height="37" />
+                                    <span class="v">
+                                    V
+                                    </span>
+                                    <img src="http://www.manutd.com/~/media/2438D83D3EF0493E9B711973D2B4B30F.ashx?h=37&w=37" alt="" width="37" height="37" />
+                                    <span class="teams">
+                                    United V West Brom
+                                    </span>
+                                </td>
+                                <td>
+                                    H
+                                    </td>
+                                <td class="kickoff">
+                                    KO
+                                    <br />
+                                    15:00
+                                    <br />
+                                    <a>
+                                    BST
+                                    </a>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td class="date">
+                                    04 April 2017
+                                </td>
+                                <td class="type">
+                                    <img src="http://www.manutd.com/~/media/D3FD0704672C4C2FB14AA74323A68F19.ashx?h=47&w=68" alt="" width="68" height="47" />
+                                </td>
+                                <td>
+                                    <img src="http://www.manutd.com/~/media/AC4AD80054D44492A7FD375782AC9DB6.ashx?h=37&w=37" alt="" width="37" height="37" />
+                                    <span class="v">
+                                    V
+                                    </span>
+                                    <img src="http://www.manutd.com/~/media/2DEA1D377FA34E0C8C4F27A3D22AD5F7.ashx?h=37&w=37" alt="" width="37" height="37" />
+                                    <span class="teams">
+                                    United V Everton
+                                    </span>
+                                    </td>
+                                    <td>
+                                        H
+                                    </td>
+                                    <td class="kickoff">
+                                        KO
+                                        <br />
+                                        20:00
+                                        <br />
+                                        <a>
+                                        BST
+                                        </a>
+                                    </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
-                    <p>Stated Kick-off time 19 Mar 2017 12:00:00</p>
-                    <select name="timeZone" onChange="javascript:getTimeZoneList('Please select a Time Zone');" id="selCountry" style="width:400px;">
-                      <option value="">Please select a Time Zone</option>
-                    <script type="text/javascript">
-                            for (x in timeZoneArray){
-                            document.write('<option value="' + x + '">' + timeZoneArray[x][1] + '</option>')
+
+                    <!-- The Modal -->
+                    <div id="modal1" class="modalDialog">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <a href="#close" title="Close" class="close">X</a>
+                        <body class="blankpage">
+                        <style type="text/css">
+                            blankpage {
+                                background-color: #f3f1f1;
+                                margin-left: 20px;
+                                font-family: arial, helvetica, sans-serif;
+                                color: #505050;
+                                position: relative;
+                                font-size: 70%;
                             }
-                        </script>
-                        </select><br><br>
-                        <select name="country" onChange="javascript:calcTime('Your kick-off time');" id="selCountry" style="width:400px;">
-                          <option value="">Please select country</option>
+                            
+                            #selCountry {
+                                font-size: 95%;
+                            }
+                            
+                            #redText {
+                                color: #cc0000;
+                                font-weight: bold;
+                            }
+                            
+                            #pageTitle {
+                                font-weight: bold;
+                                font-size: 130%;
+                            }
+                            
+                            div.text p {
+                                margin-top: 0px;
+                            }
+                        </style>
                         <script type="text/javascript">
-                                    for (x in countryArray)	{
-                                    document.write('<option value="' + countryArray[x] + '">' + countryArray[x][0] + '</option>')
-                                    }
+                            var matchDate;
+                            matchDate = "19 Mar 2017 12:00:00 GMT+0000";
+                            d = new Date(matchDate);
                         </script>
-                        </select><br><br>
-                    <div id="result"></div>
-                  </form>
-                </body>
-              </div>
-            </div>
+                        <form name="frmTimeZone">
+                            <div id="pageTitle">Match Time Converter</div>
+                            <hr>
+                            <div class="text">
+                                <p>All matches are displayed in GMT/BST. Select a country to find out the kick-off time in your timezone.</p>
+                            </div>
+                            <p>Stated Kick-off time 19 Mar 2017 12:00:00</p>
+                            <select name="timeZone" onChange="javascript:getTimeZoneList('Please select a Time Zone');" id="selCountry" style="width:400px;">
+                            <option value="">Please select a Time Zone</option>
+                            <script type="text/javascript">
+                                    for (x in timeZoneArray){
+                                    document.write('<option value="' + x + '">' + timeZoneArray[x][1] + '</option>')
+                                    }
+                                </script>
+                                </select><br><br>
+                                <select name="country" onChange="javascript:calcTime('Your kick-off time');" id="selCountry" style="width:400px;">
+                                <option value="">Please select country</option>
+                                <script type="text/javascript">
+                                            for (x in countryArray)	{
+                                            document.write('<option value="' + countryArray[x] + '">' + countryArray[x][0] + '</option>')
+                                            }
+                                </script>
+                                </select><br><br>
+                            <div id="result"></div>
+                        </form>
+                        </body>
+                    </div>
+                    </div>
 
-            
-            <script>
-              // Get the modal
-              var modal = document.getElementById('myModal');
+                    
+                    <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
 
-              // Get the button that opens the modal
-              var btn = document.getElementById("myBtn");
+                    // Get the button that opens the modal
+                    var btn = document.getElementById("myBtn");
 
-              // Get the <span> element that closes the modal
-              var span = document.getElementsByClassName("close")[0];
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
 
-              // When the user clicks the button, open the modal 
-              btn.onclick = function() {
-                  modal.style.display = "block";
-              }
+                    // When the user clicks the button, open the modal 
+                    btn.onclick = function() {
+                        modal.style.display = "block";
+                    }
 
-              // When the user clicks on <span> (x), close the modal
-              span.onclick = function() {
-                  modal.style.display = "none";
-              }
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                        modal.style.display = "none";
+                    }
 
-              // When the user clicks anywhere outside of the modal, close it
-              window.onclick = function(event) {
-                  if (event.target == modal) {
-                      modal.style.display = "none";
-                  }
-              }
-            </script>
-
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+                    }
+                    </script>
+                <a href="#">TOP</a>
             </section>
 
             <section id="History">
@@ -412,133 +551,363 @@
               <p>
                   Manchester United Football Club is a professional football club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of English football. Nicknamed "the Red Devils", the club was founded as Newton Heath LYR Football Club in 1878, changed its name to Manchester United in 1902 and moved to its current stadium, Old Trafford, in 1910.
               </p>
-              <button onclick="function2()">Click Me</button>
+              <button onclick="function2()">Learn More</button>
+              <a href="#">TOP</a>
             </section>
-
-            <section id="Gallery">
-              <h2>Gallery</h2>
-                <ul id="myGallery">
-                    <li><img data-frame="images/enter.jpg" src="images/enter.jpg" title="Lone Tree Yellowstone" data-description="A solitary tree surviving another harsh winter in Yellowstone National Park. Yellowstone National Park, Wyoming. (Photo and caption by Anita Erdmann/Nature/National Geographic Photo Contest) " />
-                    <li><img data-frame="images/nf.jpg" src="images/nf.jpg" title="Is He Still There?!" data-description="One morning while on the Big Island of Hawaii, i exploring my surroundings to see if i could find something to photograph. I almost went back inside when something on this huge palm tree leaf caught my eye. I stayed around and it was this little gecko, startled by my presence he was hidden between the ridges of the leaf. He would pop his head up periodically to check his surroundings, as soon as he saw i was still there he would hide again. We played this game for a while until i got the shot. Holualoa big Island, Hawaii. (Photo and caption by Lorenzo Menendez/Nature/National Geographic Photo Contest)" />
-                    <li><img data-frame="images/pg.jpg" src="images/pg.jpg" title="Noni Nectar For Green Gecko" data-description="Madagascar Gold Dust Day Gecko licking nectar from a young noni fruit in Kailua, Hawaii. These geckos were living all around the hale' we were staying in, enjoying the noni and basking on the railing and sunny steps to our place. They were very shy mostly, except this one must have enjoyed the nectar so much as to let me get a shot of their favorite activity. They seemed to tend the noni very attentively throughout the day. August 2010, Chandra S Sherin. Kona Village Resort, Kailua - Kona, Hawaii. (Photo and Caption by Chandra Sherin/Nature/National Geographic Photo Contest)" />
-                  
-                </ul>
-            </section>
-
             <section id="Team">
               <h2>
                 Team
               </h2>
-
-            <table class="frmain" border="0" cellpadding="0" cellspacing="0">
-                  <thead>
-                    <tr class="fHeader">
-                      <th>
-                        <h3>FIRST TEAM</h3>
-                        <a href="#" onclick="return show('FirstTeam','Page2');"><img src="images/team/degea.jpg" alt="" height="119" width="112"></a>
-                      </th>
-                      <th>
-                        <h3>MANAGER</h3>
-                        <a href="/en/Players-And-Staff/Managers/Jose-Mourinho.aspx"><img src="images/team/jose.jpg" alt="" height="119" width="110"></a>
-                      </th>
-                      <th>
-                        <h3>COACHES</h3>
-                        <a href="http://www.manutd.com/en/News-And-Features/Football-News/2016/Jul/photo-gallery-of-jose-mourinho-coaching-staff-at-manchester-united.aspx?PAS"><img src="images/team/rui.jpg" alt="" height="119" width="112"></a>
-                      </th>
-                      <th>
-                        <h3>LEGENDS</h3>
-                        <a href="/en/History/Legends.aspx"><img src="images/team/giggs.jpg" alt="" height="119" width="111"></a>
-                      </th>
-                  </tr>
-                  </thead>
+              <div align="center">
+                <table class="frmain" border="0" cellpadding="0" cellspacing="0" style="height: 220px; width: 600px">
+                        <thead>
+                            <tr class="fHeader">
+                            <th>
+                                <h3>FIRST TEAM</h3>
+                                <a href="#" onclick="function3()" style="text-align: center"><img src="images/team/degea.jpg" alt="" height="119" width="112"></a>
+                            </th>
+                            <th>
+                                <h3>MANAGER</h3>
+                                <a href="#" onclick="function4()" style="text-align: center"><img src="images/team/jose.jpg" alt="" height="119" width="110"></a>
+                            </th>
+                            <th>
+                                <h3>COACHES</h3>
+                                <a href="#" onclick="function5()" style="text-align: center"><img src="images/team/rui.jpg" alt="" height="119" width="112"></a>
+                            </th>
+                        </tr>
+                        </thead>
+                    </table>
+              </div>
+              <p style="text-align: center">
+                  Please select an image to view more about each.
+              </p>
+                <a href="#">TOP</a>
             </section>
-
-
-
-
-
-
-
-
-
+            
         </div>
 
-
-
-
-
-
-
-
-
-        <!-- Extra content starts here!!!!! -->
+        <!-- Hidden Content starts here!! -->
         <div id="News1" style="display:none">
-          <div style="text-align: center;">
-              <video width="600" height="500" controls>
-                  <source src="videos/pgnews.mp4" type="video/mp4">
-              </video>
-          </div>  
-              <section>
-                  <h4>
-                  Mourinho: Pogba deserves more respect
-                  </h4>
-              </section>
-              <p>
-                  Jose Mourinho believes Paul Pogba deserves more respect from football pundits as he continues to be an influential performer for Manchester United in his first season back at the club.
+            <div align="center">
+                <video width="600" height="500" controls>
+                    <source src="videos/pgnews.mp4" type="video/mp4">
+                </video>
+            </div> 
+                <section>
+                    <h4>
+                    Mourinho: Pogba deserves more respect
+                    </h4>
+                </section>
+                <p style="color: white">
+                    Jose Mourinho believes Paul Pogba deserves more respect from football pundits as he continues to be an influential performer for Manchester United in his first season back at the club.
 
-                  The Frenchman's record price tag means his performances can be subject to media scrutiny but at Wednesday's pre-match press conference, Mourinho reiterated that everybody at the club is happy with the midfielder's contribution. The manager feels the player, who turns 24 today, is having to deal with undue criticism and suggests that envy may be a factor in the flak.
+                    The Frenchman's record price tag means his performances can be subject to media scrutiny but at Wednesday's pre-match press conference, Mourinho reiterated that everybody at the club is happy with the midfielder's contribution. The manager feels the player, who turns 24 today, is having to deal with undue criticism and suggests that envy may be a factor in the flak.
 
-                  "I feel that the world is losing values and we all know that and envy is coming into certain levels," said Mourinho, on the eve of United's second leg against FC Rostov.
+                    "I feel that the world is losing values and we all know that and envy is coming into certain levels," said Mourinho, on the eve of United's second leg against FC Rostov.
 
-                  "I'm scared for especially the next generation if things go in this direction. Envy is everywhere.
+                    "I'm scared for especially the next generation if things go in this direction. Envy is everywhere.
 
-                  "It's not Paul's fault that he gets 10 times the money that some players, some very good players, got in the past. It's not his fault that some of the pundits are in real trouble with their lives and they need every pound to survive and Paul is a multi-millionaire. It's not his fault.
+                    "It's not Paul's fault that he gets 10 times the money that some players, some very good players, got in the past. It's not his fault that some of the pundits are in real trouble with their lives and they need every pound to survive and Paul is a multi-millionaire. It's not his fault.
 
-                  "I think he deserves respect. I think his family deserve respect. He's a kid that comes from a working family, a family with three boys and I'm sure they needed a lot of food on that table every day because they are big giants. So I'm sure that the mum and the dad had to work hard for many, many years for them.
+                    "I think he deserves respect. I think his family deserve respect. He's a kid that comes from a working family, a family with three boys and I'm sure they needed a lot of food on that table every day because they are big giants. So I'm sure that the mum and the dad had to work hard for many, many years for them.
 
-                  "He is a kid that came to Manchester as a teenager, that fought for his career here, that was not afraid to move and to go to another country and to look for better conditions for him. A kid that reached the top of the world with his work, nobody gave him anything.
+                    "He is a kid that came to Manchester as a teenager, that fought for his career here, that was not afraid to move and to go to another country and to look for better conditions for him. A kid that reached the top of the world with his work, nobody gave him anything.
 
-                  "I'm very happy with Paul. The club is very happy with Paul and I think also a good thing is that because of his personality, he doesn't given an ass what people say."
-                  <button onclick="function1()">Click Me</button>
-              </p>
+                    "I'm very happy with Paul. The club is very happy with Paul and I think also a good thing is that because of his personality, he doesn't given an ass what people say."
+                </p>
+                <p>
+                    <button onclick="myFunction()">Back</button>
+                </p>
+                </div>
+
+                <div id="News2" style="display:none">
+                <section>
+                    <h4>
+                    Sir Alex reveals he tried to sign Maldini
+                    </h4>
+                </section>
+                <p style="color: white">
+                    Sir Alex Ferguson was always known to be shrewd in the transfer market, yet even the greatest manager in British football could not prize the ever-loyal Paolo Maldini away from AC Milan.
+
+                    The Italian defender is among the most famous one-club men in the game after making 904 appearances for the San Siro side across a 24-season career, impressively winning seven Serie A titles, five Champions League trophies and 14 other major cups, while also earning 127 international caps.  
+
+                    Maldini joined Sir Alex on stage to launch Tour 2017, presented by Aon, in New York City on Tuesday night and our former manager revealed an amusing tale about the time he ambitiously enquired about a deal with the Rossoneri.
+
+                    “I did try but, when I met his father [ex-coach Cesare], he was quite formidable,” Sir Alex said, when asked if he ever wanted Paolo to play for United. “I got a shake of the head and that was all. He said 'my grandfather is Milan, my father is Milan, I am Milan and my son is Milan... forget it!’”
+
+                    Maldini, who retired aged 40 in May 2009, was unaware of the request but politely admitted he would not have left his beloved Milan. “The good part about it is that he [his father] has never talked to me about it. There was no chance though!”
+                </p>
+                <p>
+                    <button onclick="function6()">Back</button>
+                </p>
+                </div>
+
+
+                <div id="Hist" style="display:none">
+                    <section>
+                        <p>
+                        Manchester United have won a record 20 League Titles, a joint-record 12 FA Cups, 5 League Cups and a record 21 FA Community Shields. The club has also won three European Cups, one UEFA Cup Winners' Cup, one UEFA Super Cup, one Intercontinental Cup and one FIFA Club World Cup. In 1998–99, the club became the first in the history of English football to achieve the treble of the Premier League, the FA Cup and the UEFA Champions League.
+                        </p>
+                        <p>
+                        The 1958 Munich air disaster claimed the lives of eight players. In 1968, under the management of Matt Busby, Manchester United became the first English football club to win the European Cup. Alex Ferguson won 38 trophies, including 13 Premier League titles, 5 FA Cups and 2 UEFA Champions Leagues, between 1986 and 2013, when he announced his retirement. José Mourinho is the club's current manager, having been appointed on 27 May 2016.
+                        </p>
+                        <p>
+                        Manchester United was the highest-earning football club in the world for 2015–16, with an annual revenue of €689 million, and the world's third most valuable football club in 2015, valued at £1.98 billion.[8] As of June 2015, it is the world's most valuable football brand, estimated to be worth $1.2 billion. It is one of the most widely supported football teams in the world. After being floated on the London Stock Exchange in 1991, the club was purchased by Malcolm Glazer in May 2005 in a deal valuing the club at almost £800 million, after which the company was taken private again. In August 2012, Manchester United made an initial public offering on the New York Stock Exchange. The club holds several rivalries, most notably with Liverpool, Manchester City and Leeds United, and more recently with Arsenal.
+                        </p>
+                    </section>
+                    <div id="map"></div>
+                    <script>
+                    function initMap() {
+                        var uluru = {lat: 53.463066, lng: -2.291422};
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 15,
+                        center: uluru
+                        });
+                        var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                        });
+                    }
+                    </script>
+                    <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6DDSPso0LksDhuV3a-mN00BjTXRHx9mU&callback=initMap">
+                    </script>
+                    <button onclick="function2()">Back</button>
+            </div>
+            <div id="FirstTeam" style="display:none">
+                <div align="center">
+                    <div id="playerscontainer">
+                        <h6>First Team</h6>
+                        <ul class="firstteam">
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/dave.jpg" title="Image of De Gea" alt="Image of De Gea" height="79" width="116">
+                                    1 . 
+                                    <span>
+                                        De Gea
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/bailey.jpg" title="Image of Bailly" alt="Image of Bailly" height="79" width="116"> 3 . <span>
+                                        Bailly
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                <img src="images/team/small/jones.jpg" title="Image of Jones" alt="Image of Jones" height="79" width="116"> 4 . <span>
+                                        Jones
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/rojo.jpg" title="Image of Rojo" alt="Image of Rojo" height="79" width="116"> 5 . <span>
+                                        Rojo
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/pogba.jpg" title="Image of Pogba" alt="Image of Pogba" height="79" width="116"> 6 . <span>
+                                        Pogba
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/mata.jpg" title="Image of Mata" alt="Image of Mata" height="79" width="116"> 8 . <span>
+                                        Mata
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/ibra.jpg" title="Image of Ibrahimovic" alt="Image of Ibrahimovic" height="79" width="116"> 9 . <span>
+                                        Ibrahimovic
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/roo.jpg" title="Image of Rooney" alt="Image of Rooney" height="79" width="116"> 10 . <span>
+                                        Rooney
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/martial.jpg" title="Image of Martial" alt="Image of Martial" height="79" width="116"> 11 . <span>
+                                        Martial
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/small.jpg" title="Image of Smalling" alt="Image of Smalling" height="79" width="116"> 12 . <span>
+                                        Smalling
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/ling.jpg" title="Image of Lingard" alt="Image of Lingard" height="79" width="116"> 14 . <span>
+                                        Lingard
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/jan.jpg" title="Image of Januzaj" alt="Image of Januzaj" height="79" width="116"> 15 . <span>
+                                        Januzaj
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/car.jpg" title="Image of Carrick" alt="Image of Carrick" height="79" width="116"> 16 . <span>
+                                        Carrick
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/blind.jpg" title="Image of Blind" alt="Image of Blind" height="79" width="116"> 17 . <span>
+                                        Blind
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/young.jpg" title="Image of Young" alt="Image of Young" height="79" width="116"> 18 . <span>
+                                        Young
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/rash.jpg" title="Image of Rashford" alt="Image of Rashford" height="79" width="116"> 19 . <span>
+                                        Rashford
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/roe.jpg" title="Image of Romero" alt="Image of Romero" height="79" width="116"> 20 . <span>
+                                        Romero
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/her.jpg" title="Image of Herrera" alt="Image of Herrera" height="79" width="116"> 21 . <span>
+                                        Herrera
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/mik.jpg" title="Image of Mkhitaryan" alt="Image of Mkhitaryan" height="79" width="116"> 22 . <span>
+                                        Mkhitaryan
+                                        </span></a>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <img src="images/team/small/shaw.jpg" title="Image of Shaw" alt="Image of Shaw" height="79" width="116"> 23 . <span>
+                                        Shaw
+                                        </span></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                <button onclick="function3()">Back</button>
+                </div>
           </div>
-
-          <div id="Hist" style="display:none">
-            <p>
-              Manchester United have won a record 20 League Titles, a joint-record 12 FA Cups, 5 League Cups and a record 21 FA Community Shields. The club has also won three European Cups, one UEFA Cup Winners' Cup, one UEFA Super Cup, one Intercontinental Cup and one FIFA Club World Cup. In 1998–99, the club became the first in the history of English football to achieve the treble of the Premier League, the FA Cup and the UEFA Champions League.
-            </p>
-            <p>
-              The 1958 Munich air disaster claimed the lives of eight players. In 1968, under the management of Matt Busby, Manchester United became the first English football club to win the European Cup. Alex Ferguson won 38 trophies, including 13 Premier League titles, 5 FA Cups and 2 UEFA Champions Leagues, between 1986 and 2013, when he announced his retirement. José Mourinho is the club's current manager, having been appointed on 27 May 2016.
-            </p>
-            <p>
-              Manchester United was the highest-earning football club in the world for 2015–16, with an annual revenue of €689 million, and the world's third most valuable football club in 2015, valued at £1.98 billion.[8] As of June 2015, it is the world's most valuable football brand, estimated to be worth $1.2 billion. It is one of the most widely supported football teams in the world. After being floated on the London Stock Exchange in 1991, the club was purchased by Malcolm Glazer in May 2005 in a deal valuing the club at almost £800 million, after which the company was taken private again. In August 2012, Manchester United made an initial public offering on the New York Stock Exchange. The club holds several rivalries, most notably with Liverpool, Manchester City and Leeds United, and more recently with Arsenal.
-            </p>
-            <div id="map"></div>
-            <script>
-              function initMap() {
-                var uluru = {lat: 53.463066, lng: -2.291422};
-                var map = new google.maps.Map(document.getElementById('map'), {
-                  zoom: 15,
-                  center: uluru
-                });
-                var marker = new google.maps.Marker({
-                  position: uluru,
-                  map: map
-                });
-              }
-            </script>
-            <script async defer
-              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6DDSPso0LksDhuV3a-mN00BjTXRHx9mU&callback=initMap">
-            </script>
-            <button onclick="function2()">Click Me</button>
+          <div id="Manager" style="display: none" align="center">
+              <div id="playerscontainer" class="managers">
+                <h6 class="titletab tab2-1">Manager Profile</h6>
+                <div id="mainContainerPlayers">
+                    <div id="biocontainer">
+                        <img alt="Jose Mourinho" src="http://www.manutd.com/sitecore/shell/~/media/D87EC5EA573F4C298C2D71E002143961.ashx?w=240&amp;h=311&amp;rgn=200,0,1746,2001" height="311" width="240">
+                        <div id="biodetails">
+                            <h1>Jose Mourinho</h1>
+                            <table cellspacing="1" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <th>Nationality:
+                                        </th>
+                                        <td>Portuguese</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Manager From:</th>
+                                        <td>27 May 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Years as Manager:</th>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div>
+                        <p style="font: bold">
+                        Manager Bio
+                        </p>
+                        <div class="cssPagination">
+                            <div class="pages">
+                                <div class="page" id="page2">
+                                    <p>The Portuguese had previously had a semi-professional football career and made his coaching breakthrough in the backroom staff of Sir Bobby Robson at Sporting Lisbon, Porto and Barcelona.&nbsp;</p>
+                                    <p>After brief but successful stints in charge at Benfica and Uniao de Leiria, he won the UEFA Champions League with Porto in 2004 only a year after lifting the UEFA Europa League in his first full season as manager.</p>
+                                    <p>He also won back-to-back Portuguese league titles and two domestic cup competitions at Porto before Chelsea came calling.</p>
+                                    <p>
+                                        Page Two
+                                    </p>
+                                    <a class="prev page2" href="#page1">Previous</a>
+                                    <a class="next page2" href="#page3">Next</a>
+                                </div>
+                                <div class="page" id="page3">
+                                    <p>In his first campaign at Stamford Bridge in 2004/05, Chelsea won their first top-flight title for 50 years with a record haul of 95 points.</p>
+                                    <p>They retained the Premier League title a year later and won the FA Cup and the League Cup twice with Mourinho in charge.</p>
+                                    <p>Mourinho left Chelsea in 2007 and his next managerial role came with Inter Milan, where he won the Serie A title and the Italian Super Cup in his first season.</p>
+                                    <p>
+                                        Page Three
+                                    </p>
+                                    <a class="prev page3" href="#page2">Previous</a>
+                                </div>
+                                <div class="page" id="page1">
+                                    <p><strong>Three-time Premier League winner Jose Mourinho began his third spell in England's&nbsp;top-flight&nbsp;when he was announced as Louis van Gaal's successor at Manchester United on 27 May 2016.</strong></p>
+                                    <p>Mourinho started his Premier League career in London when he was named manager of Chelsea in June 2004 before leaving early into the 2007/08 campaign.</p>
+                                    <p>He returned to the Blues on 3 June 2013, nine years and a day after getting his first taste of management in England’s top-flight.</p>
+                                    <p>
+                                        Page One
+                                    </p>
+                                    <a class="next page1" href="#page2">Next</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button onclick="function4()">Back</button>
           </div>
-
-          <div id="FirstTeam" style="display:none">
-            <p>
-            Hello
-            </p>
+          <div id="Coaches" style="display: none" align="center">
+            <ul id="Gallery2">
+                <li><img src="images/team/rui.jpg" alt="Rui Faria" title="Rui Faria" data-description="Rui Filipe da Cunha Faria (born 14 June 1975 in Balugães, Barcelos, Portugal) is a Portuguese football coach, known for his career long association with football manager José Mourinho. He is the current assistant manager at Manchester United, having taken over from Ryan Giggs, who left United after a 29-year career with the club. " />
+                <li><img src="images/team/Silvino.jpg" alt="Silvino Louro" title="Silvino Louro" data-description="Silvino de Almeida Louro (born 5 March 1959), known simply as Silvino in his playing days, is a retired Portuguese footballer who played as a goalkeeper, and a current first-team coach at Manchester United. Having ended his professional career in his 40s – playing in 21 Primeira Liga seasons and totalling 408 appearances – he went on to have another extensive spell as a goalkeeper coach, under José Mourinho."/>
+                <li><img src="images/team/Ricardo.jpg" alt="Ricardo Formosinho" title="Ricardo Formosinho" data-description="Ricardo Manuel Nunes Formosinho (born 9 September 1956) is a Portuguese retired footballer who played as a midfielder, and a current scout for English club Manchester United."/>
+                <li><img src="images/team/Emilio.jpg" alt="Emilio Alvarez" title="Emilio Alvarez" data-description="" />
+                <li><img src="images/team/Giovanni.jpg" alt="Giovanni Cerra" title="Giovanni Cerra" data-description="Cerra is the analyst on Mourinho‘s team and he turns scouting data into gameplans and images — making them easier to understand for the United stars." />
+                <li><img src="images/team/Carlos.jpg" alt="Carlos Lalin" title="Carlos Lalin" data-description="Carlos Lalin is Manchester United's fitness specialist" />
+            </ul>
+            <button onclick="function5()">Back</button>
           </div>
-
         </main>
     </div>
 </body>
